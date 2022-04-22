@@ -17,12 +17,12 @@
 
 		// default to dark mode unless explicitly set preference to light
 		if (prefersLight) {
-			document.querySelector('html').classList.remove('dark')
+			document.documentElement.classList.remove('dark')
 		}
 	</script>
 </head>
 
-<body class="vsc-initialized bg-white text-white dark:bg-gray-900 dark:text-black">
+<body class="vsc-initialized">
 	<div id="svelte">%svelte.body%</div>
 </body>
 

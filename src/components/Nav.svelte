@@ -12,7 +12,7 @@
 
 <nav
 	class="relative mx-auto flex w-full max-w-2xl items-center justify-between
-	 py-8 text-gray-900 sm:pb-16">
+	 py-8 sm:pb-16">
 	 <MobileMenu />
 	<ul class="ml-[-0.60rem] flex">
 		<li>
@@ -86,9 +86,9 @@
 				localStorage.setItem('prefersLight', prefersLight.toString());
 
 				if (prefersLight) {
-					document.querySelector('html').classList.remove('dark');
+					document.documentElement.classList.remove('dark');
 				} else {
-					document.querySelector('html').classList.add('dark');
+					document.documentElement.classList.add('dark');
 				}
 			}}
 		>

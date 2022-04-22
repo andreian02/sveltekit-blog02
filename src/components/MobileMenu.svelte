@@ -23,7 +23,7 @@
 	>
 		{#if !isOpen}
 			<svg
-				class="absolute h-5 w-5 text-gray-900 dark:text-gray-100"
+				class="absolute h-5 w-5"
 				width="20"
 				height="20"
 				viewBox="0 0 20 20"
@@ -44,7 +44,7 @@
 			>
 		{:else}
 			<svg
-				class="h-5 w-5 absolute text-gray-900 dark:text-gray-100"
+				class="h-5 w-5 absolute"
 				viewBox="0 0 24 24"
 				width="24"
 				height="24"
@@ -60,7 +60,7 @@
 	</button>
 	{#if isOpen}
 		<ul
-			class="menu absolute flex flex-col bg-gray-50 text-2xl  uppercase dark:bg-gray-900"
+			class="menu absolute flex flex-col bg-gray-50 text-lg uppercase"
 			class:menuRendered={isMenuRendered}
 		>
 			<li

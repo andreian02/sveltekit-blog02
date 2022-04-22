@@ -17,7 +17,7 @@
 				posts
 			}
 		};
-	};
+};
 </script>
 
 <script>
@@ -25,7 +25,7 @@
 </script>
 
 <svelte:head>
-	<title>Works</title>
+	<title>My Blog Entries</title>
 </svelte:head>
 
 <div

@@ -1,14 +1,12 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
 	import FeatureCard from '../components/FeaturedCard.svelte';
 </script>
 
+
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
+
 
 
 <div
@@ -31,10 +29,15 @@
 	
 	</div>
 
+	<script>
+		export let posts;
+	</script>
+
 	<section class="mb-16 w-full">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight md:text-4xl">
 			Recent Posts
 		</h3>
+
 		<div class="flex flex-col gap-6 md:flex-row">
 			<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" />
 			<FeatureCard
@@ -61,5 +64,6 @@
 				/></svg
 			></a
 		>
+
 	</section>
 </div>

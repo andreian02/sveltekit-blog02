@@ -11,10 +11,9 @@
 </script>
 
 <nav
-	class="relative mx-auto flex w-full max-w-2xl items-center justify-between sm:pb-16"
->
-	<a href="#skip" class="skip-nav">Skip to content</a>
-	<MobileMenu />
+	class="relative mx-auto flex w-full max-w-2xl items-center justify-between
+	 py-8 text-gray-900 sm:pb-16">
+	 <MobileMenu />
 	<ul class="ml-[-0.60rem] flex">
 		<li>
 			<NavLink href="/">Home</NavLink>
@@ -105,16 +104,7 @@
 </nav>
 
 <style>
-	.skip-nav {
-		position: absolute;
-		left: -25%;
-		top: -2rem;
-		--tw-translate-y: -3rem;
-		padding: 0.75rem 1rem;
-		transition-property: transform;
-		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-		transition-duration: 0.2s;
-	}
+	
 	:global(body) {
 		background-color: white;
 		color: black;

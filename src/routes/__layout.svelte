@@ -13,10 +13,10 @@
 	/>
 </svelte:head>
 
-<div class="flex flex-col justify-center sm:px-8">
+<div class="flex flex-col justify-center px-4 sm:px-8">
 	<Nav />
 </div>
-<main class="flex flex-col justify-center sm:px-8">
+<main class="flex flex-col justify-center px-4 sm:px-8">
 	<slot />
 </main>
 
@@ -29,13 +29,13 @@
 		</div> -->
 		<ul class="footer__links">
 			<li class="footer__links_item">
-				<a href="/" class="text-gray-500 transition hover:text-gray-300">Home</a>
+				<a href="/" class="footer_name">Home</a>
 			</li>
 			<li class="footer__links_item">
-				<a href="/about" class="text-gray-500 transition hover:text-gray-300">About</a>
+				<a href="/about" class="footer_name">About</a>
 			</li>
 			<li class="footer__links_item">
-				<span class="text-gray-500 transition hover:text-gray-300">© 2022 Andrew Lim</span>
+				<span class="footer_name">© 2022 Andrew Lim</span>
 			</li>
 		</ul>
 

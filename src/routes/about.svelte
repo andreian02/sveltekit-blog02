@@ -10,7 +10,7 @@
 >
 	<div class="flex flex-col justify-center items-start max-w-2xl mb-16">
 		<div class="flex flex-col pr-8">
-			<h1 class="mb-3 text-3xl font-bold tracking-tight md:text-5xl">
+			<h1 class="mb-3 text-3xl font-bold tracking-tight md:text-5xl py-4">
 				About Me
 			</h1>
 			<h2 class="mb-4">

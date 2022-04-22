@@ -12,7 +12,7 @@
 
 <nav
 	class="relative mx-auto flex w-full max-w-2xl items-center justify-between
-	 py-8 sm:pb-16">
+	 py-8 sm:pb-10">
 	 <MobileMenu />
 	<ul class="ml-[-0.60rem] flex">
 		<li>
@@ -52,7 +52,7 @@
 		<!-- Github -->
 		<a
 			class="rounded-lg"
-			href="https://github.com/"
+			href="https://github.com/andreian02"
 			aria-label="GitHub source"
 		>
 			<svg aria-hidden="true" class="h-9 w-9 p-1" fill="currentColor" viewBox="0 0 24 24">

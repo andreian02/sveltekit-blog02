@@ -14,7 +14,7 @@
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
-			<h1 class="mb-3 text-3xl font-bold tracking-tight md:text-5xl">
+			<h1 class="mb-3 text-3xl font-bold tracking-tight md:text-5xl py-4">
 				Hello World
 			</h1>
 			<h2 class="mb-4">

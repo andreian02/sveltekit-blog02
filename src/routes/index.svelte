@@ -24,7 +24,7 @@
 
 
 <div
-	class="mx-auto flex max-w-2xl flex-col items-start justify-center border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8"
+	class="mx-auto flex max-w-2xl flex-col items-start justify-center border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-4"
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
@@ -37,7 +37,7 @@
 				><br> Inspired by Swyxkit!
 			</h2>
 			<p class="mb-16">
-				
+				<a href="/blog/building-cloudwhite">View sources here!</a>
 			</p>
 		</div>
 		

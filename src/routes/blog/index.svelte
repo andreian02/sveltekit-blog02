@@ -15,7 +15,6 @@
     console.log(recentPosts)
   </script>
 
-
 <svelte:head>
 	<title>My Blog Entries</title>
 </svelte:head>
@@ -42,7 +41,7 @@
         {#each recentPosts as Post}
           <div class="post">
             
-            <h2 class="post-item__title">
+            <h2 class="hover:text-current hover:underline my-0.5">
               <a class="post-item__title__link" href={`/blog/${Post.slug}`}
                 >{Post.title}</a>
             </h2>

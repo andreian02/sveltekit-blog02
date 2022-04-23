@@ -20,7 +20,7 @@
 		</div>
 		<div class="capsize flex items-center">
 			<!-- {Post.date} -->
-			<time>{format(new Date(parseISO(Post.date)), 'MMMM d, yyyy')}</time>
+			<p>{format(new Date(parseISO(Post.date)), 'MMMM dd, yyyy')}</p>
 		</div>
 
 		

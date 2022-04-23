@@ -33,7 +33,7 @@
 			<h2 class="mb-4">
 				An Sveltekit Blog App built by <span class="font-semibold"
 					>SvelteKit + Tailwind + Vercel.</span
-				> Inspired by Swykit!
+				> Inspired by Swyxkit!
 			</h2>
 			<p class="mb-16">
 				
@@ -53,12 +53,6 @@
 			{#each recentPosts as Post}
 			<FeatureCard title={Post.title} 
 				href={`/blog/${Post.slug}`} stringData={Post.date} />
-			<!-- <FeatureCard
-				title="Moving to a GitHub CMS"
-				href="/moving-to-a-github-cms"
-				stringData="Jan 2022"
-			/>
-			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" /> -->
 			{/each}
 		</div>
 		<a

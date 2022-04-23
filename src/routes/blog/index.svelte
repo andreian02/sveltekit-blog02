@@ -83,9 +83,7 @@
 		text-align: left;
 		margin: 10px 0 0 0;
 	}
-	.readmore:hover {
-		color: grey;
-	}
+	
 
 	.post-item {
 		border-bottom: solid 1px var(--border-color);

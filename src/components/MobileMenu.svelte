@@ -29,6 +29,13 @@
 				viewBox="0 0 20 20"
 				fill="none"
 				><path
+					d="M2.5 2.5H17.5"
+					stroke="currentColor"
+					stroke-width="1.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+				><path
 					d="M2.5 7.5H17.5"
 					stroke="currentColor"
 					stroke-width="1.5"

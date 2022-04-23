@@ -1,6 +1,6 @@
 ---
 layout: mds
-title: the omega swatch project
+title: The Omega Swatch Project Sprint
 date: 2022-03-08
 description: working around the clock on omega swatch
 isCompleted: true

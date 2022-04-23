@@ -1,22 +1,27 @@
 <script>
-	export let title = 'Untitled post';
-	export let href = '#';
+	// export let title = 'Untitled post';
+	// export let href = '#';
 	/** @type {string} */
-	export let stringData;
+	
+	import { format, parseISO } from 'date-fns'
+	export let Post
 </script>
 
 <a
-	class="w-full transform rounded-xl p-1 hover:scale-[1.05] md:w-1/3"
-	{href}
-	><div class="flex h-full flex-col justify-between rounded-lg p-4 dark:bg-gray-900">
+	class="w-full transform rounded-xl p-1 hover:scale-[1.01] md:w-1/3"
+	href={`/blog/${Post.slug}`}
+	><div class="flex h-full flex-col justify-between rounded-lg p-2 dark:bg-gray-900">
 		<div class="flex flex-col justify-between md:flex-row">
 			<h4
-				class="mb-6 w-full text-lg font-medium tracking-tight sm:mb-10 md:text-lg"
+				class="mb-6 w-full text-lg font-medium tracking-tight sm:mb-6 md:text-lg"
 			>
-				{title}
+				{Post.title}
 			</h4>
 		</div>
 		<div class="capsize flex items-center">
-			{stringData}
+			<!-- {Post.date} -->
+			<time>{format(new Date(parseISO(Post.date)), 'MMMM d, yyyy')}</time>
 		</div>
+
+		
 	</div></a>

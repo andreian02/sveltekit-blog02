@@ -12,6 +12,7 @@
 <script>
 	import FeatureCard from '../components/FeaturedCard.svelte';
 	import ButtonLink from '../components/ButtonLink.svelte'
+	import ButtonLinkForward from '../components/ButtonLinkForward.svelte'
 	export let recentPosts
 	console.log(recentPosts)
 </script>
@@ -33,7 +34,7 @@
 			<h2 class="mb-4">
 				An Sveltekit Blog App built by <span class="font-semibold"
 					>SvelteKit + Tailwind + Vercel.</span
-				> Inspired by Swyxkit!
+				><br> Inspired by Swyxkit!
 			</h2>
 			<p class="mb-16">
 				
@@ -51,26 +52,15 @@
 		
 		<div class="flex flex-col gap-6 md:flex-row">
 			{#each recentPosts as Post}
-			<FeatureCard title={Post.title} 
-				href={`/blog/${Post.slug}`} stringData={Post.date} />
+			<!-- <FeatureCard title={Post.title} 
+				href={`/blog/${Post.slug}`} stringData={Post.date} /> -->
+				<FeatureCard {Post}/>
 			{/each}
 		</div>
-		<a
-			class="mt-8 flex h-6 rounded-lg leading-7 transition-all"
-			href="/blog"
-			>See latest posts<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				class="ml-1 h-6 w-6"
-				><path
-					stroke="currentColor"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"
-				/></svg
-			></a
-		>
+		
+		<ButtonLinkForward href="/blog" size="small" raised={false} style="margin-top:40px;">
+			View All Posts
+		</ButtonLinkForward>
 	</section>
 </div>
+

@@ -12,7 +12,7 @@
 
 <nav
 	class="relative mx-auto flex w-full max-w-2xl items-center justify-between
-	 py-8 sm:pb-10">
+	 py-8 sm:pb-8">
 	 <MobileMenu />
 	<ul class="ml-[-0.60rem] flex">
 		<li>

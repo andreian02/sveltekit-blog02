@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
-    .prose img {
+    img {
         @apply rounded-md shadow-md dark:shadow-slate-900;
       }
     

@@ -1,8 +1,8 @@
 ---
 layout: mds
-title: Data Goals for 2022
-date: 2022-03-08
-description: I created this blog with sveltekit. And the development experience was a rollercoaster ride.
+title: Data goals for 2022
+date: 2022-02-10
+description: What are my data goals for 2022
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]

@@ -1,12 +1,25 @@
+<script context="module">
+	export const prerender = true
+	export const load = async ({ fetch }) => {
+      return {
+        props: {
+          recentPosts: await fetch('/posts.json?limit=3').then((res) => res.json())
+        }
+      }
+    }
+</script>
+
 <script>
 	import FeatureCard from '../components/FeaturedCard.svelte';
+	import ButtonLink from '../components/ButtonLink.svelte'
+	export let recentPosts
+	console.log(recentPosts)
 </script>
 
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
-
 
 
 <div
@@ -26,26 +39,27 @@
 				
 			</p>
 		</div>
-	
+		
 	</div>
 
-	<script>
-		export let posts;
-	</script>
+
 
 	<section class="mb-16 w-full">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight md:text-4xl">
 			Recent Posts
 		</h3>
-
+		
 		<div class="flex flex-col gap-6 md:flex-row">
-			<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" />
-			<FeatureCard
+			{#each recentPosts as Post}
+			<FeatureCard title={Post.title} 
+				href={`/blog/${Post.slug}`} stringData={Post.date} />
+			<!-- <FeatureCard
 				title="Moving to a GitHub CMS"
 				href="/moving-to-a-github-cms"
 				stringData="Jan 2022"
 			/>
-			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
+			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" /> -->
+			{/each}
 		</div>
 		<a
 			class="mt-8 flex h-6 rounded-lg leading-7 transition-all"
@@ -64,6 +78,5 @@
 				/></svg
 			></a
 		>
-
 	</section>
 </div>

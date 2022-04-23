@@ -1,8 +1,8 @@
 ---
 layout: mds
-title: What I learnt round the clock to produce a data viz on Omega Swatch Collab in 2022
-date: 2022-03-08
-description: I created this blog with sveltekit. And the development experience was a rollercoaster ride.
+title: What I learnt while preparing for data interviews
+date: 2022-05-08
+description: While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
@@ -14,9 +14,7 @@ tags: [svelte, sveltekit, vercel, vite]
 
 I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
 
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me.
-
-So I tried it out.
+I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me. So I tried it out.
 
 ## Svelte
 

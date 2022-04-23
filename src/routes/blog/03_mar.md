@@ -1,8 +1,8 @@
 ---
 layout: mds
-title: What I learnt about preparing for data interviews
-date: 2022-08-08
-description: While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.
+title: the omega swatch project
+date: 2022-03-08
+description: working around the clock on omega swatch
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
@@ -14,7 +14,9 @@ tags: [svelte, sveltekit, vercel, vite]
 
 I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
 
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me. So I tried it out.
+I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me.
+
+So I tried it out.
 
 ## Svelte
 

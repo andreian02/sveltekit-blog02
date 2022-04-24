@@ -13,7 +13,6 @@
   
   <script>
     export let recentPosts
-    console.log(recentPosts)
   </script>
 
 <svelte:head>
@@ -33,7 +32,7 @@
           while I journey through the data world.
         </h2>
         <h3 class="mb-4">
-          <span class="font-semibold">{recentPosts.length}</span> projects and counting...
+          <span class="font-semibold">{recentPosts.length}</span> entries and counting...
         </h3>
       </div>
       

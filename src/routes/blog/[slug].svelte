@@ -36,36 +36,34 @@
     import { format, parseISO } from 'date-fns'
     import PostPreview from "../../components/PostPreview.svelte"
     import ButtonLink from '../../components/ButtonLink.svelte';
+    import ButtonLinkForward from '../../components/ButtonLinkForward.svelte';
+    import ChevronDoubleRightIcon from 'heroicons-svelte/solid/ChevronDoubleRightIcon.svelte';
+    import ChevronDoubleLeftIcon from 'heroicons-svelte/solid/ChevronDoubleLeftIcon.svelte';
 
     // metadata
     export let title
+    export let tags
     export let date
     export let preview
     export let readingTime
     export let slug
     export let next
     export let previous
-
     export let component
-
-    
 </script>
-
-<svelte:head>
-	<title> Post Entry | {title}</title>
-</svelte:head>
 
 
 <article class="mx-auto flex max-w-2xl flex-col items-start justify-center my-3 border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8">
   <h2 class="mb-3 text-2xl font-bold tracking-tight md:text-3xl py-2">
 		{title}
 	</h2>
-
+  
     <div class="opacity-85 font-light text-sm">
       <span datetime={new Date(parseISO(date)).toISOString()}
         >{format(new Date(parseISO(date)), 'MMMM d, yyyy')}</span>
       •
       <span>{readingTime}</span>
+      <!-- <span>{tags}</span> -->
     </div>
   
     <div class="relative">
@@ -80,21 +78,20 @@
         </div>
       </div>
     </div>
-
-    <ButtonLink href="/blog" size="small" raised={false} class="mt-10"
-		>Back to All Posts
-	</ButtonLink>
-
   </article>
 
 
   <!-- next/previous posts -->
 {#if previous || next}
 <hr />
-<div class="grid gap-8 grid-cols-1 sm:grid-cols-2">
+<div class="grid gap-6 grid-cols-2 sm:grid-cols-2">
   {#if previous}
-    <div class="flex flex-col">
-      <h6 class="not-prose post-preview-label">Previous Post</h6>
+    <div class="flex flex-row pt-6 text-sm justify-self-end">
+      
+      <!-- <h6 class="not-prose post-preview-label flex items-center"><ChevronDoubleLeftIcon class="h-4 w-4"/>Previous Post
+      </h6> -->
+      <ChevronDoubleLeftIcon class="h-4 w-4  items-center"/>
+      
       <div class="flex-1 post-preview">
         <PostPreview post={previous} small />
       </div>
@@ -103,11 +100,19 @@
     <div />
   {/if}
   {#if next}
-    <div class="flex flex-col">
-      <h6 class="not-prose post-preview-label flex justify-end">Next Post</h6>
+    
+    <div class="flex flex-row pt-6 text-sm justify-self-start">
+      
+      <!-- <h6 class="not-prose post-preview-label flex items-center space-x-1">Next Post<ChevronDoubleRightIcon class="h-4 w-4"/></h6> -->
       <div class="flex-1 post-preview">
+        
         <PostPreview post={next} small />
+        <ChevronDoubleRightIcon class="flex h-4 w-4 items-center"/>
+
+        
       </div>
+     
+      
     </div>
   {/if}
 </div>

@@ -1,4 +1,5 @@
 ---
+layout: mds
 title: Data goals for 2022
 date: 2022-02-10
 description: What are my data goals for 2022

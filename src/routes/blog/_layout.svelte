@@ -1,36 +1,17 @@
-<script>
-	export let tags;
-	export let title;
-	export let date;
-	
-	import ButtonLink from '../../components/ButtonLink.svelte';
-	
 
-	
+<script>
+	export let title;
+	import ButtonLink from '../../components/ButtonLink.svelte';
 </script>
 
 <svelte:head>
-	<title> Post Entry | {title}</title>
+	<title> Post \\ {title}</title>
 </svelte:head>
 
 
-<div
-	class="mx-auto flex max-w-2xl flex-col items-start justify-center my-3 border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8"
->	
-	<h2 class="mb-3 text-2xl font-bold tracking-tight md:text-3xl py-2">
-		{title}
-	  </h2>
-	<span class="postDate">{new Date(date).toDateString()}</span>
+<slot/>
 
-	<span>{tags}</span>
-	<span>{tags}</span>
+<ButtonLink href="/blog" size="small" raised={false} class="mt-10"
+	>Back to all Posts
+</ButtonLink>
 
-	<slot />
-	<ButtonLink href="/blog" size="small" raised={false} class="mt-10"
-		>Back
-	</ButtonLink>
-	
-</div>
-
-<style>
-</style>

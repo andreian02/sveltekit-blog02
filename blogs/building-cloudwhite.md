@@ -1,6 +1,6 @@
 ---
 layout: mds
-title: Building and putting this Sveltekit Blog App together
+title: Building this Sveltekit Blog App
 date: 2022-05-08
 description: This is a entry where I try to document down how I managed to put this Sveltekit Blog App together.
 isCompleted: true

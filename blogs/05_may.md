@@ -1,4 +1,5 @@
 ---
+layout: mds
 title: What I learnt while preparing for data interviews
 date: 2022-05-08
 description: While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.

@@ -1,22 +1,17 @@
 ---
-layout: mds
-title: Data goals for 2022 - FROM POSTS Folder
-date: 2022-02-10
-description: What are my data goals for 2022
+title: Building and putting this Sveltekit Blog App together
+date: 2022-05-08
+description: This is a entry where I document how I managed to put this Sveltekit Blog App together.
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
 ---
 
-![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
-
 ## Introduction
 
 I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
 
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me.
-
-So I tried it out.
+I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me. So I tried it out.
 
 ## Svelte
 

@@ -1,14 +1,11 @@
 ---
-layout: mds
-title: Data goals for 2022
-date: 2022-02-10
-description: What are my data goals for 2022
+title: My First Attempt into Web Development - FROM POSTS Folder
+date: 2022-04-08
+description: I created this blog with sveltekit. And the development experience was a rollercoaster ride.
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
 ---
-
-![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
 
 ## Introduction
 

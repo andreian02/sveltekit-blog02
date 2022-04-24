@@ -18,7 +18,7 @@
 		class:large={size === 'large'}
 		class:raised
 	>
-		<div class="flex items-center space-x-1">
+		<div class="flex items-center text-sm space-x-1">
 			<slot name="icon-start" />
 			<ChevronDoubleLeftIcon class="h-5 w-5" />
 			<span>

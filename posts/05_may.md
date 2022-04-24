@@ -1,8 +1,7 @@
 ---
-layout: mds
-title: Building and putting this Sveltekit Blog App together
+title: What I learnt while preparing for data interviews - FROM POSTS Folder
 date: 2022-05-08
-description: This is a entry where I document how I managed to put this Sveltekit Blog App together.
+description: While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]

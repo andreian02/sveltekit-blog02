@@ -1,8 +1,8 @@
 ---
 layout: mds
-title: The Omega Swatch Project Sprint
-date: 2022-03-08
-description: Working around the clock on omega swatch
+title: Data goals for 2022 - FROM POSTS Folder
+date: 2022-02-10
+description: What are my data goals for 2022
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]

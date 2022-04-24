@@ -1,7 +1,11 @@
 <script>
+	export let tags;
 	export let title;
 	export let date;
+	
 	import ButtonLink from '../../components/ButtonLink.svelte';
+	
+
 	
 </script>
 
@@ -17,6 +21,9 @@
 		{title}
 	  </h2>
 	<span class="postDate">{new Date(date).toDateString()}</span>
+
+	<span>{tags}</span>
+
 	<slot />
 	<ButtonLink href="/blog" size="small" raised={false} class="mt-10"
 		>Back

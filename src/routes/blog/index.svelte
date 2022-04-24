@@ -1,6 +1,7 @@
 <script context="module">
-    import ButtonLinkForward from "../../components/ButtonLinkForward.svelte";
-	export const prerender = true
+  // import ButtonLinkForward from "../../components/ButtonLinkForward.svelte";
+	
+  export const prerender = true
     export const load = async ({ fetch }) => {
       return {
         props: {
@@ -41,20 +42,23 @@
         {#each recentPosts as Post}
           <div class="post">
             
-            <h2 class="hover:text-current hover:underline my-0.5">
-              <a class="post-item__title__link" href={`/blog/${Post.slug}`}
+            <h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl">
+              <a href={`/blog/${Post.slug}`}
                 >{Post.title}</a>
             </h2>
-			<div class="opacity-85 text-sm">
-				<span class="postDate">{new Date(Post.date).toDateString()}</span>
-				•
-				<span>{Post.readingTime}</span>
-			</div>
-            <p class="post-item__description">{Post.description.substring(0, 200)}</p>
+           
+			
+            <div class="opacity-85 font-light text-sm">
+              <p>{Post.description.substring(0, 200)}</p>
+              <span>{new Date(Post.date).toDateString()}</span>
+              •
+              <span>{Post.readingTime.replace('read', '')}</span>
+            </div>
+            
             <!-- <p class="readmore"> -->
-               <ButtonLinkForward href={`/blog/${Post.slug}`} size="small" raised={false} style="margin-top:20px;">
+               <!-- <ButtonLinkForward href={`/blog/${Post.slug}`} size="small" raised={false} style="margin-top:20px;">
                 Read More
-              </ButtonLinkForward>
+              </ButtonLinkForward> -->
             <!-- </p> -->
           </div>
         {/each}
@@ -73,22 +77,5 @@
 	}
 	.post {
 		padding: 1px;
-	}
-	
-	.post-item {
-		border-bottom: solid 1px var(--border-color);
-		padding: 1rem 0;
-		line-height: 1.6;
-	}
-	.post-item__date {
-		color: var(--secondary-color);
-	}
-	.post-item__title {
-		margin: 0.5rem 0;
-	}
-	.post-item__title__link {
-		color: var(--main-color);
-		font-size: 1.5rem;
-		text-decoration: none;
 	}
 </style>

@@ -14,6 +14,7 @@
   
   <script>
     export let recentPosts
+    console.log("This is Agent")
     console.log(recentPosts)
   </script>
   
@@ -79,20 +80,6 @@
     }
     
   
-    .readmore {
-      text-align: left;
-      margin: 10px 0 0 0;
-    }
-    
-  
-    .post-item {
-      border-bottom: solid 1px var(--border-color);
-      padding: 1rem 0;
-      line-height: 1.6;
-    }
-    .post-item__date {
-      color: var(--secondary-color);
-    }
     .post-item__title {
       margin: 0.5rem 0;
     }

@@ -14,7 +14,7 @@
 	import ButtonLink from '../components/ButtonLink.svelte'
 	import ButtonLinkForward from '../components/ButtonLinkForward.svelte'
 	export let recentPosts
-	console.log(recentPosts)
+	// console.log(recentPosts)
 </script>
 
 
@@ -65,3 +65,4 @@
 	</section>
 </div>
 
+<hr />

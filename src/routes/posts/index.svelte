@@ -68,6 +68,8 @@
       </div>
     </div>
   
+    <hr />
+  
   <style>
       
       .blogposts {

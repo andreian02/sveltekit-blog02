@@ -32,7 +32,7 @@
 	</div>
 	<slot />
 </main>
-<hr />
+
 <Footer/>
 
 </PageTransition>

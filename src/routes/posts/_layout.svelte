@@ -11,7 +11,7 @@
 
 <slot/>
 
-<ButtonLink href="/blog" size="small" raised={false} class="mt-10"
+<ButtonLink href="/posts" size="small" raised={false} class="mt-10"
 	>Back to all Posts
 </ButtonLink>
 

@@ -9,7 +9,7 @@ const config = defineConfig({
 	extensions: ['.svelte.md', '.md', '.svx'],
 
 	layout: {
-		mds: path.join(dirname, './src/routes/blog/_layout.svelte'),
+		mds: path.join(dirname, './src/routes/posts/_layout.svelte'),
 	},
 
 	smartypants: {

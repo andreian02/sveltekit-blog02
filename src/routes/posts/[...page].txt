@@ -52,13 +52,12 @@
     $: isFirstPage = page === 1
     $: hasNextPage = posts[posts.length - 1]?.previous
 
-    console.log("hi from blog")
     console.log(posts)
 
   </script>
 
 <svelte:head>
-    <title> BLOG! PAGE | Posts</title>
+    <title> TEST PAGE | Posts</title>
 </svelte:head>
 
 

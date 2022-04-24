@@ -1,4 +1,5 @@
 ---
+layout: mds
 title: My First Attempt into Web Development
 date: 2022-04-08
 description: I created this blog with sveltekit. And the development experience was a rollercoaster ride.

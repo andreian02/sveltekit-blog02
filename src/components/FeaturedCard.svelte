@@ -9,7 +9,7 @@
 
 <a
 	class="w-full transform rounded-xl p-1 hover:scale-[1.01] md:w-1/3"
-	href={`/blog/${Post.slug}`}
+	href={`/posts/${Post.slug}`}
 	><div class="flex h-full flex-col justify-between rounded-lg p-2 dark:bg-gray-900">
 		<div class="flex flex-col justify-between md:flex-row">
 			<h4

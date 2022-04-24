@@ -37,7 +37,8 @@
 				><br> Inspired by Swyxkit!
 			</h2>
 			<p class="mb-16">
-				<a href="/blog/building-cloudwhite">View sources here!</a>
+				<a href="/posts
+				/building-cloudwhite">View sources here!</a>
 			</p>
 		</div>
 		
@@ -58,7 +59,7 @@
 			{/each}
 		</div>
 		
-		<ButtonLinkForward href="/blog" size="small" raised={false} style="margin-top:40px;">
+		<ButtonLinkForward href="/posts" size="small" raised={false} style="margin-top:40px;">
 			View All Posts
 		</ButtonLinkForward>
 	</section>

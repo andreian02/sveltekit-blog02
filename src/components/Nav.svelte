@@ -19,7 +19,7 @@
 			<NavLink href="/">Home</NavLink>
 		</li>
 		<li>
-			<NavLink href="/blog">Blog</NavLink>
+			<NavLink href="/posts">Blog</NavLink>
 		</li>
 		<li>
 			<NavLink href="/about">About</NavLink>

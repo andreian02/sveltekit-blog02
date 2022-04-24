@@ -35,8 +35,6 @@
 <script>
   import { format, parseISO } from 'date-fns'
   import PostPreview from "../../components/PostPreview.svelte"
-  import ButtonLink from '../../components/ButtonLink.svelte';
-  import ButtonLinkForward from '../../components/ButtonLinkForward.svelte';
   import ChevronDoubleRightIcon from 'heroicons-svelte/solid/ChevronDoubleRightIcon.svelte';
   import ChevronDoubleLeftIcon from 'heroicons-svelte/solid/ChevronDoubleLeftIcon.svelte';
 
@@ -44,12 +42,13 @@
   export let title
   export let tags
   export let date
-  export let preview
   export let readingTime
-  export let slug
   export let next
   export let previous
   export let component
+
+  // export let preview
+  // export let slug
 </script>
 
 
@@ -63,6 +62,8 @@
       >{format(new Date(parseISO(date)), 'MMMM d, yyyy')}</span>
     •
     <span>{readingTime}</span>
+    •
+    <span>[{tags}]</span>
     <!-- <span>{tags}</span> -->
   </div>
 
@@ -88,10 +89,8 @@
 {#if previous}
   <div class="flex flex-row pt-6 text-sm justify-self-end">
     
-    <!-- <h6 class="not-prose post-preview-label flex items-center"><ChevronDoubleLeftIcon class="h-4 w-4"/>Previous Post
-    </h6> -->
+    <!-- <h6 class="not-prose post-preview-label flex items-center"><ChevronDoubleLeftIcon class="h-4 w-4"/>Previous Post</h6> -->
     <ChevronDoubleLeftIcon class="h-4 w-4  items-center"/>
-    
     <div class="flex-1 post-preview">
       <PostPreview post={previous} small />
     </div>
@@ -105,14 +104,9 @@
     
     <!-- <h6 class="not-prose post-preview-label flex items-center space-x-1">Next Post<ChevronDoubleRightIcon class="h-4 w-4"/></h6> -->
     <div class="flex-1 post-preview">
-      
       <PostPreview post={next} small />
       <ChevronDoubleRightIcon class="flex h-4 w-4 items-center"/>
-
-      
     </div>
-   
-    
   </div>
 {/if}
 </div>

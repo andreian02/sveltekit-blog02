@@ -45,9 +45,4 @@ I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that conv
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
 	}
-
-    image{
-        height:100%;
-        width:10%;
-    }
 </style>

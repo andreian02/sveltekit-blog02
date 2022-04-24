@@ -8,6 +8,8 @@ slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
 ---
 
+<!-- ![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png) --> image file...
+
 ## Introduction
 
 I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
@@ -45,9 +47,8 @@ I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that conv
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
 	}
-
-    image{
+    /* image{
         height:100%;
         width:10%;
-    }
+    } */
 </style>

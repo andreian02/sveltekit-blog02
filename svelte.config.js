@@ -1,5 +1,7 @@
 // import adapter from '@sveltejs/adapter-auto';
-import adapter from '@sveltejs/adapter-static'
+// import adapter from '@sveltejs/adapter-static'
+import vercel from '@sveltejs/adapter-vercel';
+
 import { mdsvex } from 'mdsvex';
 import mdsvexConfig from './mdsvex.config.js';
 
@@ -7,7 +9,7 @@ import mdsvexConfig from './mdsvex.config.js';
 const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	kit: {
-		adapter: adapter({
+		adapter: vercel({
 			pages: 'public',
 			assets: 'public'
 		}),

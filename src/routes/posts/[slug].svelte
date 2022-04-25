@@ -90,7 +90,7 @@
   <div class="flex flex-row pt-6 text-sm justify-self-end">
     
     <!-- <h6 class="not-prose post-preview-label flex items-center"><ChevronDoubleLeftIcon class="h-4 w-4"/>Previous Post</h6> -->
-    <ChevronDoubleLeftIcon class="h-4 w-4  items-center"/>
+    <ChevronDoubleLeftIcon class="h-4 w-4"/>
     <div class="flex-1 post-preview">
       <PostPreview post={previous} small />
     </div>
@@ -105,8 +105,8 @@
     <!-- <h6 class="not-prose post-preview-label flex items-center space-x-1">Next Post<ChevronDoubleRightIcon class="h-4 w-4"/></h6> -->
     <div class="flex-1 post-preview">
       <PostPreview post={next} small />
-      <ChevronDoubleRightIcon class="flex h-4 w-4 items-center"/>
     </div>
+    <ChevronDoubleRightIcon class="h-4 w-4"/>
   </div>
 {/if}
 </div>

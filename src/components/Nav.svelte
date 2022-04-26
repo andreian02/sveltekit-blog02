@@ -1,4 +1,6 @@
 <script>
+	import { pages } from '../lib/site-config';
+
 	import MobileMenu from './MobileMenu.svelte';
 	import MoonIcon from 'heroicons-svelte/solid/MoonIcon.svelte';
 	import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte';
@@ -7,23 +9,19 @@
 	import NavLink from './NavLink.svelte';
 	let prefersLight = browser ? Boolean(JSON.parse(localStorage.getItem('prefersLight'))) : false;
 	let isDark = false;
-
 </script>
 
 <nav
 	class="relative mx-auto flex w-full max-w-2xl items-center justify-between
-	 py-8 sm:pb-8">
-	 <MobileMenu />
+	 py-8 sm:pb-8"
+>
+	<MobileMenu />
 	<ul class="ml-[-0.60rem] flex">
-		<li>
-			<NavLink href="/">Home</NavLink>
-		</li>
-		<li>
-			<NavLink href="/posts">Blog</NavLink>
-		</li>
-		<li>
-			<NavLink href="/about">About</NavLink>
-		</li>
+		{#each pages as { title, path }}
+			<li>
+				<NavLink href={path}>{title}</NavLink>
+			</li>
+		{/each}
 	</ul>
 	<div class="flex items-center space-x-4">
 		<!-- RSS -->
@@ -50,11 +48,7 @@
 			</svg>
 		</a> -->
 		<!-- Github -->
-		<a
-			class="rounded-lg"
-			href="https://github.com/andreian02"
-			aria-label="GitHub source"
-		>
+		<a class="rounded-lg" href="https://github.com/andreian02" aria-label="GitHub source">
 			<svg aria-hidden="true" class="h-9 w-9 p-1" fill="currentColor" viewBox="0 0 24 24">
 				<path
 					fill-rule="evenodd"
@@ -71,40 +65,38 @@
 				/>
 			</svg>
 		</a>
-		
 
 		{#if browser}
-		<button
-			type="button"
-			role="switch"
-			aria-label="Toggle Dark Mode"
-			aria-checked={!prefersLight}
-			class="ml-1 flex h-5 w-5 items-center justify-center rounded-lg"
-			on:click={() => {
-				window.document.body.classList.toggle('dark-mode');
-				prefersLight = !prefersLight
-				localStorage.setItem('prefersLight', prefersLight.toString());
+			<button
+				type="button"
+				role="switch"
+				aria-label="Toggle Dark Mode"
+				aria-checked={!prefersLight}
+				class="ml-1 flex h-5 w-5 items-center justify-center rounded-lg"
+				on:click={() => {
+					window.document.body.classList.toggle('dark-mode');
+					prefersLight = !prefersLight;
+					localStorage.setItem('prefersLight', prefersLight.toString());
 
-				if (prefersLight) {
-					document.documentElement.classList.remove('dark');
-				} else {
-					document.documentElement.classList.add('dark');
-				}
-			}}
-		>
-			{#if prefersLight}
-				<MoonIcon class="text-black" />
-			{:else}
-				<SunIcon class="text-white" />
-			{/if}
-			<slot />
-		</button>
+					if (prefersLight) {
+						document.documentElement.classList.remove('dark');
+					} else {
+						document.documentElement.classList.add('dark');
+					}
+				}}
+			>
+				{#if prefersLight}
+					<MoonIcon class="text-black" />
+				{:else}
+					<SunIcon class="text-white" />
+				{/if}
+				<slot />
+			</button>
 		{/if}
 	</div>
 </nav>
 
 <style>
-	
 	:global(body) {
 		background-color: white;
 		color: black;

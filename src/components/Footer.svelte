@@ -1,7 +1,6 @@
-<footer class="mx-auto p-10 flex w-full max-w-2xl flex-col items-start justify-center">
+<footer class="mx-auto p-4 flex w-full max-w-2xl flex-col items-start justify-center">
 	<!-- <hr class="mb-8 w-full" /> -->
-	<div class="grid w-full max-w-2xl gap-4 p-4 sm:text-sm sm:px-8">
-		
+	<div class="grid w-full max-w-2xl gap-4 p-4 sm:text-sm sm:px-2">
 		<ul class="footer__links">
 			<li class="footer__links_item">
 				<a href="/" class="text-sm">Home</a>
@@ -16,10 +15,8 @@
 				<span class="text-sm">© 2022 Andrew Lim</span>
 			</li>
 		</ul>
-
 	</div>
 </footer>
-
 
 <style>
 	.footer__links {
@@ -29,13 +26,9 @@
 		flex-direction: row;
 		align-items: center;
 		list-style: none;
-		
 	}
 
 	.footer__links_item {
-		margin: 0.5rem;		
+		margin: 0.5rem;
 	}
 </style>
-
-
-

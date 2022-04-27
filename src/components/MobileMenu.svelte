@@ -1,4 +1,5 @@
 <script>
+	import { pages } from '../lib/site-config';
 	let isOpen = false;
 	let isMenuRendered;
 	$: {
@@ -22,12 +23,7 @@
 		on:click={() => (isOpen = !isOpen)}
 	>
 		{#if !isOpen}
-			<svg
-				class="absolute h-5 w-5"
-				width="20"
-				height="20"
-				viewBox="0 0 20 20"
-				fill="none"
+			<svg class="absolute h-5 w-5" width="20" height="20" viewBox="0 0 20 20" fill="none"
 				><path
 					d="M2.5 2.5H17.5"
 					stroke="currentColor"
@@ -70,18 +66,20 @@
 			class="menu absolute flex flex-col bg-gray-50 text-lg uppercase"
 			class:menuRendered={isMenuRendered}
 		>
-			<li
-				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-				style="transition-delay: 150ms;"
-			>
-				<a
-					class="flex w-auto pb-4"
-					sveltekit:prefetch
-					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/">Home</a
+			{#each pages as { title, path }}
+				<li
+					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					style="transition-delay: 150ms;"
 				>
-			</li>
-			<li
+					<a
+						class="flex w-auto pb-4"
+						sveltekit:prefetch
+						on:click={() => setTimeout(() => (isOpen = false), 300)}
+						href={path}>{title}</a
+					>
+				</li>
+			{/each}
+			<!-- <li
 				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
 				style="transition-delay: 250ms;"
 			>
@@ -102,7 +100,7 @@
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/about">About</a
 				>
-			</li>
+			</li> -->
 			<!-- <li
 				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
 				style="transition-delay: 400ms;"
@@ -166,7 +164,7 @@
 	}
 
 	.menuRendered li {
-		@apply w-full border-gray-200; 
+		@apply w-full border-gray-200;
 		transform: translateX(0);
 		opacity: 1;
 	}

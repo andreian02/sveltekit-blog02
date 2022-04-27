@@ -1,6 +1,5 @@
 <script>
 	import { pages } from '../lib/site-config';
-
 	import MobileMenu from './MobileMenu.svelte';
 	import MoonIcon from 'heroicons-svelte/solid/MoonIcon.svelte';
 	import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte';

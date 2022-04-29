@@ -45,7 +45,7 @@ Hence, the data goals for this year would be;
 
 I am keeping my fingers crossed!
 
-<style>
+```<style>
 	h2 {
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
@@ -62,3 +62,4 @@ I am keeping my fingers crossed!
 
 	}
 </style>
+```

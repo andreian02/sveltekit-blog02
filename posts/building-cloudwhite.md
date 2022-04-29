@@ -39,10 +39,4 @@ I also tried [vercel](https://vercel.com/) to host this blog. Hosting was extrem
 
 I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
 
-<style>
-	h2 {
-		font-weight: bold;
-        margin: 10px 5px 10px 0px;
-	}
-    
-</style>
+

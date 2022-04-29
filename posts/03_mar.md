@@ -5,7 +5,7 @@ date: 2022-03-29
 description: Working around the clock on Omega x Swatch MoonSwatch
 isCompleted: true
 slug: lets-start-building
-tags: [tableau, data visualisation, data jouralism]
+tags: [tableau • data visualisation • data jouralism]
 ---
 
 ## Introduction

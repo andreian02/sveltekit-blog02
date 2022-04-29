@@ -9,7 +9,9 @@
 				<a href="/about" class="text-sm">About</a>
 			</li>
 			<li class="footer__links_item">
-				<a href="https://www.linkedin.com/in/andreian02/" class="text-sm">LinkedIn</a>
+				<a href="https://www.linkedin.com/in/andreian02/" target="_blank" class="text-sm"
+					>LinkedIn</a
+				>
 			</li>
 			<li class="footer__links_item">
 				<span class="text-sm">© 2022 Andrew Lim</span>

@@ -5,7 +5,7 @@ date: 2022-05-08
 description: While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.
 isCompleted: true
 slug: lets-start-building
-tags: [svelte, sveltekit, vercel, vite]
+tags: [svelte • sveltekit • vercel • vite]
 ---
 
 ## Introduction

@@ -1,50 +1,62 @@
 ---
 layout: mds
 title: Data goals for 2022
-date: 2022-02-10
+date: 2022-02-01
 description: What are my data goals for 2022
 isCompleted: true
 slug: lets-start-building
-tags: [svelte, sveltekit, vercel, vite]
+tags: [goals • 2022]
 ---
 
 ## Introduction
 
-I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
+<p>I was reading Jordan Peterson's 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.</p>
 
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me.
+<p> I believe it was also a quote similar to this that emphasis the need to try focus and be good at one thing, one key objective. 
+</p>
 
-So I tried it out.
+<p></p>
 
-## Svelte
+<span>Orient yourself properly. Then–and only then–concentrate on the day. Set your sights at the Good, the Beautiful, and the True, and then focus pointedly and carefully on the concerns of each moment. Aim continually at Heaven while you work diligently on Earth. Attend fully to the future, in that manner, while attending fully to the present. Then you have the best chance of perfecting both. -Jordan Peterson</span>
 
-There are already many posts about [Svelte](https://svelte.dev/) by other people and reading the official document should be enough to start making stuff with it.
+<p></p>
 
-The syntax was very straightforward and I liked it a lot.
+## Inspiration
 
-## Sveltekit
+Ever since I chanced upon this **[article](https://pudding.cool/2021/10/judge-my-music/)** from a media publication called the pudding, I always try wanted to try and shape my role in my organisation towards their mission statement.
 
-According to the [official document](https://kit.svelte.dev/),
+**_It is to explain ideas debated in culture with visual essays._**
 
-> SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.
+Working in TBWA, understanding culture is a key differentiating factor in our business, I always wanted to contribute back to the business by using data to explain ideas or to think of ways what role data could play within this space. Hence the pudding's direction was exactly where I wanted to explore and grow towards.
 
-## Vite
+## Building Blocks of Data Essays
 
-Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
+Looking at the interactiveness of how data is being used to "story tell" in each of the pudding's articles, I knew getting into web development, learning about d3.js was the next step to take. Although I have attempted in data viz / story tell articles with Tableau, getting into web dev and couple that with d3.js would be a set of additional skill that I wish to develop next.
 
-This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
+## Data Goals for 2022
 
-## Hosting
+Hence, the data goals for this year would be;
 
-I also tried [vercel](https://vercel.com/) to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.
+&nbsp;&nbsp;&nbsp; • Hands on in Web Dev
 
-## Other stuff
+&nbsp;&nbsp;&nbsp; • Using D3.js
 
-I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
+&nbsp;&nbsp;&nbsp; • Apply web dev with D3.js on a Data Project
 
 <style>
 	h2 {
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
+	}
+
+	p{
+		padding:5px
+	}
+
+	span{
+		text-align:center;
+		font-style: italic;
+		padding:5px
+
 	}
 </style>

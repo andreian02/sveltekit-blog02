@@ -5,7 +5,7 @@ date: 2022-05-08
 description: This is a entry where I try to document down how I managed to put this Sveltekit Blog App together.
 isCompleted: true
 slug: lets-start-building
-tags: [svelte, sveltekit, vercel, vite]
+tags: [svelte • sveltekit • vercel • tailwind]
 ---
 
 ![image](/assets/images/sveltekit.jpg 'sveltekit')
@@ -15,23 +15,21 @@ tags: [svelte, sveltekit, vercel, vite]
 Part of my goals for 2022 was to learn and grow within the space of web development.
 Although I generally work as a data analyst in advertising, running code snippets, fetching data from APIs, connecting to databases etc, I thought it would be cool to be able to build web application to interface with the data collected.
 
-## Svelte
+## Inspirations
 
 There are already many posts about [Svelte](https://svelte.dev/) by other people and reading the official document should be enough to start making stuff with it.
 
 The syntax was very straightforward and I liked it a lot.
 
-## Sveltekit
+## Frameworks
 
 According to the [official document](https://kit.svelte.dev/),
 
 > SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.
 
-## Vite
+## Resources
 
 Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
-
-This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
 
 ## Hosting
 
@@ -46,8 +44,5 @@ I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that conv
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
 	}
-    image{
-        height:50%;
-        width:50%;
-    }
+    
 </style>

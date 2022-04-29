@@ -5,7 +5,7 @@ date: 2022-04-01
 description: A brief summary of my first foray into web development.
 isCompleted: true
 slug: lets-start-building
-tags: [web development, html, css, js]
+tags: [web development • html • css • js]
 ---
 
 ## Introduction

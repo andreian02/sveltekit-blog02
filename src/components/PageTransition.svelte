@@ -1,4 +1,10 @@
+<!--blur and fly transition effect -->
 <script>
+	import { blur } from 'svelte/transition';
+	export let url = '';
+</script>
+
+<!-- <script>
     import { fly } from "svelte/transition";
     export let url = "";
   </script>
@@ -10,4 +16,10 @@
     >
       <slot />
     </div>
-  {/key}
+  {/key} -->
+
+{#key url}
+	<div in:blur={{ duration: 400, delay: 400, amount: 5 }} out:blur={{ duration: 400 }}>
+		<slot />
+	</div>
+{/key}

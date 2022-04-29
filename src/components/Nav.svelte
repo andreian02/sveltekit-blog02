@@ -47,7 +47,12 @@
 			</svg>
 		</a> -->
 		<!-- Github -->
-		<a class="rounded-lg" href="https://github.com/andreian02" aria-label="GitHub source">
+		<a
+			class="rounded-lg"
+			href="https://github.com/andreian02"
+			target="_blank"
+			aria-label="GitHub source"
+		>
 			<svg aria-hidden="true" class="h-9 w-9 p-1" fill="currentColor" viewBox="0 0 24 24">
 				<path
 					fill-rule="evenodd"

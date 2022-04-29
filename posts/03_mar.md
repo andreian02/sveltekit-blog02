@@ -34,7 +34,7 @@ It also taught me and also remindered me to more observant of things that are ha
 
 ## Here is my Work!
 
-![data-viz](/assets/images/omega_swatch.jpg 'viz')
+![omega_swatch](https://user-images.githubusercontent.com/36339564/165980330-7f39d3c9-03e9-470b-947c-acbb880d0451.jpg)
 
 Some of the elements are interactive, so do checkout the viz **[here](https://public.tableau.com/app/profile/andrei7065/viz/Planet-Book/Dashboard1)**.
 

@@ -5564,7 +5564,7 @@ function create_ssr_component(fn) {
       return {
         html,
         css: {
-          code: Array.from(result.css).map((css12) => css12.code).join("\n"),
+          code: Array.from(result.css).map((css11) => css11.code).join("\n"),
           map: null
         },
         head: result.title + result.head
@@ -18177,20 +18177,16 @@ ${slots.default ? slots.default({}) : ``}
   }
 });
 
-// .svelte-kit/output/server/chunks/02_feb-d57e2045.js
-var feb_d57e2045_exports = {};
-__export(feb_d57e2045_exports, {
+// .svelte-kit/output/server/chunks/02_feb-f3e6f38e.js
+var feb_f3e6f38e_exports = {};
+__export(feb_f3e6f38e_exports, {
   _: () => __glob_4_0
 });
-var css6, metadata, _02_feb, __glob_4_0;
-var init_feb_d57e2045 = __esm({
-  ".svelte-kit/output/server/chunks/02_feb-d57e2045.js"() {
+var metadata, _02_feb, __glob_4_0;
+var init_feb_f3e6f38e = __esm({
+  ".svelte-kit/output/server/chunks/02_feb-f3e6f38e.js"() {
     init_index_6f2d446f();
     init_layout_62cd9e84();
-    css6 = {
-      code: "h2.svelte-12k5zls{font-weight:bold;margin:10px 5px 10px 0px}p.svelte-12k5zls{padding:5px\n	}span.svelte-12k5zls{text-align:center;font-style:italic;padding:5px\n\n	}",
-      map: null
-    };
     metadata = {
       "layout": "mds",
       "title": "Data goals for 2022",
@@ -18201,28 +18197,43 @@ var init_feb_d57e2045 = __esm({
       "tags": ["goals \u2022 2022"]
     };
     _02_feb = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css6);
       return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {
         default: () => {
-          return `<h2 class="${"svelte-12k5zls"}">Introduction</h2>
-<p class="${"svelte-12k5zls"}">I was reading Jordan Peterson&#39;s 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.</p>
-<p class="${"svelte-12k5zls"}">I believe it was also a quote similar to this that emphasis the need to try focus and be good at one thing, one key objective. 
+          return `<h2>Introduction</h2>
+<p>I was reading Jordan Peterson&#39;s 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.</p>
+<p>I believe it was also a quote similar to this that emphasis the need to try focus and be good at one thing, one key objective. 
 </p>
-<p class="${"svelte-12k5zls"}"></p>
-<span class="${"svelte-12k5zls"}">Orient yourself properly. Then\u2013and only then\u2013concentrate on the day. Set your sights at the Good, the Beautiful, and the True, and then focus pointedly and carefully on the concerns of each moment. Aim continually at Heaven while you work diligently on Earth. Attend fully to the future, in that manner, while attending fully to the present. Then you have the best chance of perfecting both. -Jordan Peterson</span>
-<p class="${"svelte-12k5zls"}"></p>
-<h2 class="${"svelte-12k5zls"}">Inspiration</h2>
-<p class="${"svelte-12k5zls"}">Ever since I chanced upon this <strong><a href="${"https://pudding.cool/2021/10/judge-my-music/"}" rel="${"nofollow"}">article</a></strong> from a media publication called the pudding, I always try wanted to try and shape my role in my organisation towards their mission statement.</p>
-<p class="${"svelte-12k5zls"}"><strong><em>It is to explain ideas debated in culture with visual essays.</em></strong></p>
-<p class="${"svelte-12k5zls"}">Working in TBWA, understanding culture is a key differentiating factor in our business, I always wanted to contribute back to the business by using data to explain ideas or to think of ways what role data could play within this space. Hence the pudding\u2019s direction was exactly where I wanted to explore and grow towards.</p>
-<h2 class="${"svelte-12k5zls"}">Building Blocks of Data Essays</h2>
-<p class="${"svelte-12k5zls"}">Looking at the interactiveness of how data is being used to \u201Cstory tell\u201D in each of the pudding\u2019s articles, I knew getting into web development, learning about d3.js was the next step to take. Although I have attempted in data viz / story tell articles with Tableau, getting into web dev and couple that with d3.js would be a set of additional skill that I wish to develop next.</p>
-<h2 class="${"svelte-12k5zls"}">Data Goals for 2022</h2>
-<p class="${"svelte-12k5zls"}">Hence, the data goals for this year would be;</p>
-<p class="${"svelte-12k5zls"}">\xA0\xA0\xA0 \u2022 Hands on in Web Dev</p>
-<p class="${"svelte-12k5zls"}">\xA0\xA0\xA0 \u2022 Using D3.js</p>
-<p class="${"svelte-12k5zls"}">\xA0\xA0\xA0 \u2022 Apply web dev with D3.js on a Data Project</p>
-<p class="${"svelte-12k5zls"}">I am keeping my fingers crossed!</p>`;
+<p></p>
+<span>Orient yourself properly. Then\u2013and only then\u2013concentrate on the day. Set your sights at the Good, the Beautiful, and the True, and then focus pointedly and carefully on the concerns of each moment. Aim continually at Heaven while you work diligently on Earth. Attend fully to the future, in that manner, while attending fully to the present. Then you have the best chance of perfecting both. -Jordan Peterson</span>
+<p></p>
+<h2>Inspiration</h2>
+<p>Ever since I chanced upon this <strong><a href="${"https://pudding.cool/2021/10/judge-my-music/"}" rel="${"nofollow"}">article</a></strong> from a media publication called the pudding, I always try wanted to try and shape my role in my organisation towards their mission statement.</p>
+<p><strong><em>It is to explain ideas debated in culture with visual essays.</em></strong></p>
+<p>Working in TBWA, understanding culture is a key differentiating factor in our business, I always wanted to contribute back to the business by using data to explain ideas or to think of ways what role data could play within this space. Hence the pudding\u2019s direction was exactly where I wanted to explore and grow towards.</p>
+<h2>Building Blocks of Data Essays</h2>
+<p>Looking at the interactiveness of how data is being used to \u201Cstory tell\u201D in each of the pudding\u2019s articles, I knew getting into web development, learning about d3.js was the next step to take. Although I have attempted in data viz / story tell articles with Tableau, getting into web dev and couple that with d3.js would be a set of additional skill that I wish to develop next.</p>
+<h2>Data Goals for 2022</h2>
+<p>Hence, the data goals for this year would be;</p>
+<p>\xA0\xA0\xA0 \u2022 Hands on in Web Dev</p>
+<p>\xA0\xA0\xA0 \u2022 Using D3.js</p>
+<p>\xA0\xA0\xA0 \u2022 Apply web dev with D3.js on a Data Project</p>
+<p>I am keeping my fingers crossed!</p>
+<pre class="${"language-<style>"}"><!-- HTML_TAG_START -->${`<code class="language-<style>">	h2 &#123;
+		font-weight: bold;
+        margin: 10px 5px 10px 0px;
+	&#125;
+
+	p&#123;
+		padding:5px
+	&#125;
+
+	span&#123;
+		text-align:center;
+		font-style: italic;
+		padding:5px
+
+	&#125;
+&lt;/style&gt;</code>`}<!-- HTML_TAG_END --></pre>`;
         }
       })}`;
     });
@@ -18234,17 +18245,17 @@ var init_feb_d57e2045 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/03_mar-a48dfe2d.js
-var mar_a48dfe2d_exports = {};
-__export(mar_a48dfe2d_exports, {
+// .svelte-kit/output/server/chunks/03_mar-c096d43b.js
+var mar_c096d43b_exports = {};
+__export(mar_c096d43b_exports, {
   _: () => __glob_4_1
 });
-var css7, metadata2, _03_mar, __glob_4_1;
-var init_mar_a48dfe2d = __esm({
-  ".svelte-kit/output/server/chunks/03_mar-a48dfe2d.js"() {
+var css6, metadata2, _03_mar, __glob_4_1;
+var init_mar_c096d43b = __esm({
+  ".svelte-kit/output/server/chunks/03_mar-c096d43b.js"() {
     init_index_6f2d446f();
     init_layout_62cd9e84();
-    css7 = {
+    css6 = {
       code: "h2.svelte-2ptk4z{font-weight:bold;margin:10px 5px 10px 0px;padding:1px}p.svelte-2ptk4z{padding:5px}",
       map: null
     };
@@ -18258,7 +18269,7 @@ var init_mar_a48dfe2d = __esm({
       "tags": ["tableau \u2022 data visualisation \u2022 data jouralism"]
     };
     _03_mar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css7);
+      $$result.css.add(css6);
       return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata2), {}, {
         default: () => {
           return `<h2 class="${"svelte-2ptk4z"}">Introduction</h2>
@@ -18276,7 +18287,7 @@ This was literally a race against time and within the next 12 hours, I published
 Perhaps this is my own attempt to experience what it is like to participate in data journalism.
 It also taught me and also remindered me to more observant of things that are happening around us and to always push to see if there is data story around it and what could be told.</p>
 <h2 class="${"svelte-2ptk4z"}">Here is my Work!</h2>
-<p class="${"svelte-2ptk4z"}"><img src="${"/assets/images/omega_swatch.jpg"}" alt="${"image"}" title="${"viz"}"></p>
+<p class="${"svelte-2ptk4z"}"><img src="${"/assets/images/omega_swatch.jpg"}" alt="${"data-viz"}" title="${"viz"}"></p>
 <p class="${"svelte-2ptk4z"}">Some of the elements are interactive, so do checkout the viz <strong><a href="${"https://public.tableau.com/app/profile/andrei7065/viz/Planet-Book/Dashboard1"}" rel="${"nofollow"}">here</a></strong>.</p>`;
         }
       })}`;
@@ -18289,17 +18300,17 @@ It also taught me and also remindered me to more observant of things that are ha
   }
 });
 
-// .svelte-kit/output/server/chunks/04_apr-f2f12d17.js
-var apr_f2f12d17_exports = {};
-__export(apr_f2f12d17_exports, {
+// .svelte-kit/output/server/chunks/04_apr-287f338c.js
+var apr_287f338c_exports = {};
+__export(apr_287f338c_exports, {
   _: () => __glob_4_2
 });
-var css8, metadata3, _04_apr, __glob_4_2;
-var init_apr_f2f12d17 = __esm({
-  ".svelte-kit/output/server/chunks/04_apr-f2f12d17.js"() {
+var css7, metadata3, _04_apr, __glob_4_2;
+var init_apr_287f338c = __esm({
+  ".svelte-kit/output/server/chunks/04_apr-287f338c.js"() {
     init_index_6f2d446f();
     init_layout_62cd9e84();
-    css8 = {
+    css7 = {
       code: "h2.svelte-1ugu2a4{font-weight:bold;margin:10px 5px 10px 0px}p.svelte-1ugu2a4{padding:5px}",
       map: null
     };
@@ -18313,14 +18324,14 @@ var init_apr_f2f12d17 = __esm({
       "tags": ["web development \u2022 html \u2022 css \u2022 js"]
     };
     _04_apr = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css8);
+      $$result.css.add(css7);
       return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata3), {}, {
         default: () => {
           return `<h2 class="${"svelte-1ugu2a4"}">Introduction</h2>
-<p class="${"svelte-1ugu2a4"}">One of my goals in 2022 was to learn more about web development.<br></p>
-<p class="${"svelte-1ugu2a4"}">I chanced upon <strong><a href="${"https://www.linkedin.com/in/sixing-huang-3a824a66/"}" rel="${"nofollow"}">Sixing Huang</a></strong>, who is a Triple Neo4j-Certified Bioinformatic Data Scientist and Tech Writer on LinkedIn.</p>
+<p class="${"svelte-1ugu2a4"}">One of my goals in 2022 was to learn more about web development.
+I chanced upon <strong><a href="${"https://www.linkedin.com/in/sixing-huang-3a824a66/"}" rel="${"nofollow"}">Sixing Huang</a></strong>, who is a Triple Neo4j-Certified Bioinformatic Data Scientist and Tech Writer on LinkedIn.</p>
 <p class="${"svelte-1ugu2a4"}">He did a course on <strong><a href="${"https://www.udemy.com/course/the-complete-web-development-bootcamp/"}" rel="${"nofollow"}">Web Development</a></strong> from udemy and I took that recommendation and went with it.<br></p>
-<p class="${"svelte-1ugu2a4"}"><img src="${"/assets/images/web_dev.jpg"}" alt="${"image"}" title="${"web dev"}"></p>
+<p class="${"svelte-1ugu2a4"}"><img src="${"https://user-images.githubusercontent.com/36339564/165979380-ccb1db24-1341-4c79-b2d5-6e1ef3916a55.jpg"}" alt="${"web_dev"}"></p>
 <h2 class="${"svelte-1ugu2a4"}">HTML, CSS, JS</h2>
 <p class="${"svelte-1ugu2a4"}">Through the online course, I finally got a overall understanding of the basics of HTML, CSS, Javascript. If I were to describle these basic 3 building blocks of a website;</p>
 <p class="${"svelte-1ugu2a4"}">\xA0\xA0\xA0 \u2022 HTML : Serves its purpose similar to the likes of a skeleton structure</p>
@@ -18337,9 +18348,8 @@ It is like an invisible pair of hands where it helps fetches the data from \u201
 </p>
 <p class="${"svelte-1ugu2a4"}">I guess better late than never now.  \xAF\\_(\u30C4)_/\xAF
 </p>
-<p class="${"svelte-1ugu2a4"}">Aside from getting a bird&#39;s eye view of web development, sometimes referring to other&#39;s past learning experiences on LinkedIn could be quite useful.
-Leaning on others for their experince could help provide some form of inspiration as well as recommendation on what skillsets to pick up while carving your own career in data. 
-</p>`;
+<p class="${"svelte-1ugu2a4"}">Aside from getting a bird\u2019s eye view of web development, sometimes referring to other\u2019s past learning experiences on LinkedIn could be quite useful.
+Leaning on others for their experince could help provide some form of inspiration as well as recommendation on what skillsets to pick up while carving your own career in data.</p>`;
         }
       })}`;
     });
@@ -18356,12 +18366,12 @@ var may_99006304_exports = {};
 __export(may_99006304_exports, {
   _: () => __glob_4_3
 });
-var css9, metadata4, _05_may, __glob_4_3;
+var css8, metadata4, _05_may, __glob_4_3;
 var init_may_99006304 = __esm({
   ".svelte-kit/output/server/chunks/05_may-99006304.js"() {
     init_index_6f2d446f();
     init_layout_62cd9e84();
-    css9 = {
+    css8 = {
       code: "h2.svelte-1gqx37h{font-weight:bold;margin:10px 5px 10px 0px}",
       map: null
     };
@@ -18375,7 +18385,7 @@ var init_may_99006304 = __esm({
       "tags": ["svelte \u2022 sveltekit \u2022 vercel \u2022 vite"]
     };
     _05_may = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css9);
+      $$result.css.add(css8);
       return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata4), {}, {
         default: () => {
           return `<h2 class="${"svelte-1gqx37h"}">Introduction</h2>
@@ -18405,18 +18415,18 @@ var init_may_99006304 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/building-cloudwhite-8025a7ee.js
-var building_cloudwhite_8025a7ee_exports = {};
-__export(building_cloudwhite_8025a7ee_exports, {
+// .svelte-kit/output/server/chunks/building-cloudwhite-d25d4e5a.js
+var building_cloudwhite_d25d4e5a_exports = {};
+__export(building_cloudwhite_d25d4e5a_exports, {
   _: () => __glob_4_4
 });
-var css10, metadata5, Building_cloudwhite, __glob_4_4;
-var init_building_cloudwhite_8025a7ee = __esm({
-  ".svelte-kit/output/server/chunks/building-cloudwhite-8025a7ee.js"() {
+var css9, metadata5, Building_cloudwhite, __glob_4_4;
+var init_building_cloudwhite_d25d4e5a = __esm({
+  ".svelte-kit/output/server/chunks/building-cloudwhite-d25d4e5a.js"() {
     init_index_6f2d446f();
     init_layout_62cd9e84();
-    css10 = {
-      code: "h2.svelte-1b4v5f5{font-weight:bold;margin:10px 5px 10px 0px}",
+    css9 = {
+      code: "h2.svelte-1ugu2a4{font-weight:bold;margin:10px 5px 10px 0px}p.svelte-1ugu2a4{padding:5px}",
       map: null
     };
     metadata5 = {
@@ -18429,25 +18439,25 @@ var init_building_cloudwhite_8025a7ee = __esm({
       "tags": ["svelte \u2022 sveltekit \u2022 vercel \u2022 tailwind"]
     };
     Building_cloudwhite = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css10);
+      $$result.css.add(css9);
       return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata5), {}, {
         default: () => {
-          return `<p><img src="${"/assets/images/sveltekit.jpg"}" alt="${"image"}" title="${"sveltekit"}"></p>
-<h2 class="${"svelte-1b4v5f5"}">Introduction</h2>
-<p>Part of my goals for 2022 was to learn and grow within the space of web development.
+          return `<p class="${"svelte-1ugu2a4"}"><img src="${"https://user-images.githubusercontent.com/36339564/165979218-1f9dbf95-d63d-4cd0-86d2-9d7d4b732fb9.jpg"}" alt="${"sveltekit"}"></p>
+<h2 class="${"svelte-1ugu2a4"}">Introduction</h2>
+<p class="${"svelte-1ugu2a4"}">Part of my goals for 2022 was to learn and grow within the space of web development.
 Although I generally work as a data analyst in advertising, running code snippets, fetching data from APIs, connecting to databases etc, I thought it would be cool to be able to build web application to interface with the data collected.</p>
-<h2 class="${"svelte-1b4v5f5"}">Inspirations</h2>
-<p>There are already many posts about <a href="${"https://svelte.dev/"}" rel="${"nofollow"}">Svelte</a> by other people and reading the official document should be enough to start making stuff with it.</p>
-<p>The syntax was very straightforward and I liked it a lot.</p>
-<h2 class="${"svelte-1b4v5f5"}">Frameworks</h2>
-<p>According to the <a href="${"https://kit.svelte.dev/"}" rel="${"nofollow"}">official document</a>,</p>
-<blockquote><p>SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.</p></blockquote>
-<h2 class="${"svelte-1b4v5f5"}">Resources</h2>
-<p>Sveltekit internally uses <a href="${"https://vitejs.dev/"}" rel="${"nofollow"}">Vite</a> as its build tool.</p>
-<h2 class="${"svelte-1b4v5f5"}">Hosting</h2>
-<p>I also tried <a href="${"https://vercel.com/"}" rel="${"nofollow"}">vercel</a> to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I\u2019ve used so far.</p>
-<h2 class="${"svelte-1b4v5f5"}">Other stuff</h2>
-<p>I made a <a href="${"https://github.com/K-Sato1995/md-to-json-converter"}" rel="${"nofollow"}">package</a> that converts markdown files into JSON for this.</p>`;
+<h2 class="${"svelte-1ugu2a4"}">Inspirations</h2>
+<p class="${"svelte-1ugu2a4"}">There are already many posts about <a href="${"https://svelte.dev/"}" rel="${"nofollow"}">Svelte</a> by other people and reading the official document should be enough to start making stuff with it.</p>
+<p class="${"svelte-1ugu2a4"}">The syntax was very straightforward and I liked it a lot.</p>
+<h2 class="${"svelte-1ugu2a4"}">Frameworks</h2>
+<p class="${"svelte-1ugu2a4"}">According to the <a href="${"https://kit.svelte.dev/"}" rel="${"nofollow"}">official document</a>,</p>
+<blockquote><p class="${"svelte-1ugu2a4"}">SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.</p></blockquote>
+<h2 class="${"svelte-1ugu2a4"}">Resources</h2>
+<p class="${"svelte-1ugu2a4"}">Sveltekit internally uses <a href="${"https://vitejs.dev/"}" rel="${"nofollow"}">Vite</a> as its build tool.</p>
+<h2 class="${"svelte-1ugu2a4"}">Hosting</h2>
+<p class="${"svelte-1ugu2a4"}">I also tried <a href="${"https://vercel.com/"}" rel="${"nofollow"}">vercel</a> to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I\u2019ve used so far.</p>
+<h2 class="${"svelte-1ugu2a4"}">Other stuff</h2>
+<p class="${"svelte-1ugu2a4"}">I made a <a href="${"https://github.com/K-Sato1995/md-to-json-converter"}" rel="${"nofollow"}">package</a> that converts markdown files into JSON for this.</p>`;
         }
       })}`;
     });
@@ -18468,15 +18478,15 @@ __export(slug_svelte_exports, {
 function __variableDynamicImportRuntime1__(path) {
   switch (path) {
     case "../../../posts/02_feb.md":
-      return Promise.resolve().then(() => (init_feb_d57e2045(), feb_d57e2045_exports)).then(function(n) {
+      return Promise.resolve().then(() => (init_feb_f3e6f38e(), feb_f3e6f38e_exports)).then(function(n) {
         return n._;
       });
     case "../../../posts/03_mar.md":
-      return Promise.resolve().then(() => (init_mar_a48dfe2d(), mar_a48dfe2d_exports)).then(function(n) {
+      return Promise.resolve().then(() => (init_mar_c096d43b(), mar_c096d43b_exports)).then(function(n) {
         return n._;
       });
     case "../../../posts/04_apr.md":
-      return Promise.resolve().then(() => (init_apr_f2f12d17(), apr_f2f12d17_exports)).then(function(n) {
+      return Promise.resolve().then(() => (init_apr_287f338c(), apr_287f338c_exports)).then(function(n) {
         return n._;
       });
     case "../../../posts/05_may.md":
@@ -18484,7 +18494,7 @@ function __variableDynamicImportRuntime1__(path) {
         return n._;
       });
     case "../../../posts/building-cloudwhite.md":
-      return Promise.resolve().then(() => (init_building_cloudwhite_8025a7ee(), building_cloudwhite_8025a7ee_exports)).then(function(n) {
+      return Promise.resolve().then(() => (init_building_cloudwhite_d25d4e5a(), building_cloudwhite_d25d4e5a_exports)).then(function(n) {
         return n._;
       });
     default:
@@ -18589,18 +18599,18 @@ ${previous || next ? `<div class="${"grid gap-4 grid-cols-2 sm:grid-cols-2"}">${
 // .svelte-kit/output/server/nodes/4.js
 var __exports5 = {};
 __export(__exports5, {
-  css: () => css11,
+  css: () => css10,
   entry: () => entry5,
   js: () => js5,
   module: () => slug_svelte_exports
 });
-var entry5, js5, css11;
+var entry5, js5, css10;
 var init__5 = __esm({
   ".svelte-kit/output/server/nodes/4.js"() {
     init_slug_svelte();
-    entry5 = "pages/posts/_slug_.svelte-42e3f782.js";
-    js5 = ["pages/posts/_slug_.svelte-42e3f782.js", "chunks/preload-helper-e4860ae8.js", "chunks/index-eacef462.js", "chunks/ChevronDoubleRightIcon-885b17eb.js"];
-    css11 = [];
+    entry5 = "pages/posts/_slug_.svelte-6fd71cd7.js";
+    js5 = ["pages/posts/_slug_.svelte-6fd71cd7.js", "chunks/preload-helper-e4860ae8.js", "chunks/index-eacef462.js", "chunks/ChevronDoubleRightIcon-885b17eb.js"];
+    css10 = [];
   }
 });
 
@@ -24023,11 +24033,11 @@ async function get({ url: { searchParams } }) {
 var import_date_fns2, import_reading_time, posts;
 var init_posts_json = __esm({
   ".svelte-kit/output/server/entries/endpoints/posts.json.js"() {
-    init_feb_d57e2045();
-    init_mar_a48dfe2d();
-    init_apr_f2f12d17();
+    init_feb_f3e6f38e();
+    init_mar_c096d43b();
+    init_apr_287f338c();
     init_may_99006304();
-    init_building_cloudwhite_8025a7ee();
+    init_building_cloudwhite_d25d4e5a();
     import_date_fns2 = __toESM(require_date_fns(), 1);
     init_esm();
     import_reading_time = __toESM(require_reading_time(), 1);
@@ -26472,7 +26482,7 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png", "robots.txt"]),
   mimeTypes: { ".png": "image/png", ".txt": "text/plain" },
   _: {
-    entry: { "file": "start-02019bee.js", "js": ["start-02019bee.js", "chunks/index-eacef462.js", "chunks/preload-helper-e4860ae8.js"], "css": [] },
+    entry: { "file": "start-6707b806.js", "js": ["start-6707b806.js", "chunks/index-eacef462.js", "chunks/preload-helper-e4860ae8.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),

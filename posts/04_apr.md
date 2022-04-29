@@ -10,9 +10,7 @@ tags: [web development • html • css • js]
 
 ## Introduction
 
-<p> 
-One of my goals in 2022 was to learn more about web development.<br></p>
-
+One of my goals in 2022 was to learn more about web development.
 I chanced upon **[Sixing Huang](https://www.linkedin.com/in/sixing-huang-3a824a66/)**, who is a Triple Neo4j-Certified Bioinformatic Data Scientist and Tech Writer on LinkedIn.
 
 He did a course on **[Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp/)** from udemy and I took that recommendation and went with it.<br>

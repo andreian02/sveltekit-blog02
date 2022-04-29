@@ -8,8 +8,6 @@ slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
 ---
 
-<!-- ![image](https://github.com/sveltejs/kit/blob/master/sites/kit.svelte.dev/src/images/svelte-kit-machine.webp?raw=true) -->
-
 ![image][sveltekit](/assets/images/svelte-kit-machine.png "sveltekit")
 
 ## Introduction
@@ -49,7 +47,7 @@ I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that conv
         margin: 10px 5px 10px 0px;
 	}
     image{
-        height:5%;
-        width:1%;
+        height:50%;
+        width:50%;
     }
 </style>

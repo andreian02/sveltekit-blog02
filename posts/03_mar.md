@@ -1,50 +1,46 @@
 ---
 layout: mds
-title: The Omega Swatch Project Sprint
+title: The Omega x Swatch Project Sprint
 date: 2022-03-29
-description: Working around the clock on omega swatch
+description: Working around the clock on Omega x Swatch MoonSwatch
 isCompleted: true
 slug: lets-start-building
-tags: [svelte, sveltekit, vercel, vite]
+tags: [tableau, data visualisation, data jouralism]
 ---
 
 ## Introduction
 
-I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
+<p>It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.
+I paniced because this could be a potential opporuntity not to be missed to produce a data piece around this phenomenon.</p>
 
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me.
+There were 11 different designs and they were scheduled to be release over the weekend. This was an non-exclusive watch release and were not of a limited series.
+However long lines were queued as early as 6am outside the Swatch outlets in MBS and in Orchard where everyone was trying to purchase one.<br>
 
-So I tried it out.
+See article **[here](https://sg.news.yahoo.com/watch-world-hype-surges-as-swatch-omega-collaboration-hits-stores-192830402.html)**.
 
-## Svelte
+## Time Senstivity
 
-There are already many posts about [Svelte](https://svelte.dev/) by other people and reading the official document should be enough to start making stuff with it.
+To partake on the hype and join the conversation where the crazed behavior over the watches are being discussed, I knew this would be a time senstive piece and I should aim to publish this as quickly as I can. In my mind, I have already narrow down a few go to area to get data on this phenomenon and this was literally a race against time.
+Within the next 12 hours, I published a data viz post of the Omega x Swatch Collab which was built using Tableau.
 
-The syntax was very straightforward and I liked it a lot.
+![image][viz](/assets/images/omega_swatch.png "viz")
 
-## Sveltekit
+## Formats
 
-According to the [official document](https://kit.svelte.dev/),
+During this project, I was able to make use of tableau's functionality to create a dyanmic viewport that changes when someone is viewing the viz on their mobile devices.
 
-> SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.
+## Closing
 
-## Vite
-
-Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
-
-This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
-
-## Hosting
-
-I also tried [vercel](https://vercel.com/) to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.
-
-## Other stuff
-
-I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
+I really enjoyed the experience of trying to produce this piece of work within a short period of time.
+It also taught me to think of things that are happening around us and to always push to see if there is data story around it and what could be told.
 
 <style>
 	h2 {
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
+	}
+
+	p{
+		padding: 5px;
 	}
 </style>

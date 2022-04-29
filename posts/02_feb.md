@@ -43,6 +43,8 @@ Hence, the data goals for this year would be;
 
 &nbsp;&nbsp;&nbsp; • Apply web dev with D3.js on a Data Project
 
+I am keeping my fingers crossed!
+
 <style>
 	h2 {
 		font-weight: bold;

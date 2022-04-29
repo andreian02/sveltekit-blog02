@@ -8,7 +8,7 @@ slug: lets-start-building
 tags: [svelte • sveltekit • vercel • tailwind]
 ---
 
-![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
+![sveltekit](https://user-images.githubusercontent.com/36339564/165979218-1f9dbf95-d63d-4cd0-86d2-9d7d4b732fb9.jpg)
 
 ## Introduction
 

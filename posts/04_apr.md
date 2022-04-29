@@ -17,7 +17,7 @@ I chanced upon **[Sixing Huang](https://www.linkedin.com/in/sixing-huang-3a824a6
 
 He did a course on **[Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp/)** from udemy and I took that recommendation and went with it.<br>
 
-![web-dev](/assets/images/web_dev.jpg 'web dev')
+![web_dev](https://user-images.githubusercontent.com/36339564/165979380-ccb1db24-1341-4c79-b2d5-6e1ef3916a55.jpg)
 
 ## HTML, CSS, JS
 

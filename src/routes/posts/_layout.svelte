@@ -1,7 +1,6 @@
 <script>
 	export let title;
 	export let tags;
-	import ButtonLink from '../../components/ButtonLink.svelte';
 </script>
 
 <svelte:head>

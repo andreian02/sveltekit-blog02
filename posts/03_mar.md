@@ -45,7 +45,7 @@ Some of the elements are interactive, so do checkout the viz **[here](https://pu
 		padding: 1px;
 	}
 
-	p{
+	p {
 		padding: 5px;
 	}
 </style>

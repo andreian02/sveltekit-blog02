@@ -54,7 +54,7 @@ Leaning on others for their experince could help provide some form of inspiratio
         margin: 10px 5px 10px 0px;
 	}
 
-	p{
+	p {
 		padding: 5px;
 	}
 </style>

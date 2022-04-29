@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Svelte Project Blog App" />
+	<link rel="icon" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="content-security-policy" content=""><title>My Blog Entries</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-ec3f01ef.css">
+	<link rel="stylesheet" href="/_app/assets/pages/posts/index.svelte-92fc8c05.css">
+	<link rel="modulepreload" href="/_app/start-02019bee.js">
+	<link rel="modulepreload" href="/_app/chunks/index-eacef462.js">
+	<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-97eefa08.js">
+	<link rel="modulepreload" href="/_app/pages/posts/index.svelte-965801fb.js">
+	<script>
+		const storageValue = JSON.parse(localStorage.getItem('prefersLight'))
+		const prefersLight = storageValue
+			? Boolean(storageValue)
+			: window?.matchMedia('(prefers-color-scheme: light)').matches
+
+		localStorage.setItem('prefersLight', prefersLight)
+
+		// default to dark mode unless explicitly set preference to light
+		if (prefersLight) {
+			document.documentElement.classList.remove('dark')
+		}
+	</script>
+</head>
+
+<body class="vsc-initialized">
+	<div id="svelte">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div><div class="flex flex-col justify-center px-4 sm:px-8"><nav class="relative mx-auto flex w-full max-w-2xl items-center justify-between py-8 sm:pb-8"><div class="ml-[-0.60rem] md:hidden"><button class="burger visible svelte-1u0cew4" aria-label="Toggle menu" type="button"><svg class="absolute h-5 w-5 svelte-1u0cew4" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2.5 2.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+				&gt;<path d="M2.5 7.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2.5 12.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+	
+</div>
+	<ul class="ml-[-0.60rem] flex"><li><a class="hidden rounded-lg p-1 transition-all sm:px-3 sm:py-2 md:inline-block" href="/"><span class="capsize">Home</span></a>
+			</li><li><a class="hidden rounded-lg p-1 transition-all sm:px-3 sm:py-2 md:inline-block font-semibold" href="/posts"><span class="capsize">Blog</span></a>
+			</li><li><a class="hidden rounded-lg p-1 transition-all sm:px-3 sm:py-2 md:inline-block" href="/about"><span class="capsize">About</span></a>
+			</li></ul>
+	<div class="flex items-center space-x-4">
+		
+		
+		<a class="rounded-lg" href="https://github.com/andreian02" target="_blank" aria-label="GitHub source"><svg aria-hidden="true" class="h-9 w-9 p-1" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+					0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608
+					1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088
+					2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988
+					1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112
+					6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202
+					2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566
+					4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019
+					10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg></a>
+
+		</div>
+</nav></div>
+	<main class="flex flex-col justify-center px-4 sm:px-8"><div class="flex justify-center pb-4"><img class="rounded-md shadow-md" src="https://andreian02.github.io/images/Clouds.jpg" alt="hero-img"></div>
+		
+
+
+
+
+
+
+<div class="mx-auto flex max-w-2xl flex-col items-start justify-center border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8"><div class="flex flex-col justify-center items-start max-w-2xl mb-16"><div class="flex flex-col pr-8"><h1 class="mb-3 text-3xl font-bold tracking-tight md:text-5xl py-4">My Blog Entries</h1>
+			<h2 class="mb-4">This is my personal slice of the internet where I document my personal endeavors and
+				learnings while I journey through the data world.
+			</h2>
+			<h3 class="mb-4"><span class="font-semibold">5</span> entries and counting...
+			</h3></div>
+
+		<div class="blogposts svelte-17gl5z1"><div class="post svelte-17gl5z1"><h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl"><a href="/posts/05_may">What I learnt while preparing for data interviews</a></h2>
+
+					<div class="opacity-85 font-light text-sm"><p>While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.</p>
+						<span>Sun May 08 2022</span>
+						•
+						<span>1 min </span>
+						</div>
+
+					
+					
+					
+				</div><div class="post svelte-17gl5z1"><h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl"><a href="/posts/building-cloudwhite">Building this Sveltekit Blog App</a></h2>
+
+					<div class="opacity-85 font-light text-sm"><p>This is a entry where I try to document down how I managed to put this Sveltekit Blog App together.</p>
+						<span>Sun May 08 2022</span>
+						•
+						<span>1 min </span>
+						</div>
+
+					
+					
+					
+				</div><div class="post svelte-17gl5z1"><h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl"><a href="/posts/04_apr">My First Attempt into Web Development</a></h2>
+
+					<div class="opacity-85 font-light text-sm"><p>A brief summary of my first foray into web development.</p>
+						<span>Fri Apr 01 2022</span>
+						•
+						<span>2 min </span>
+						</div>
+
+					
+					
+					
+				</div><div class="post svelte-17gl5z1"><h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl"><a href="/posts/03_mar">The Omega x Swatch Project Sprint</a></h2>
+
+					<div class="opacity-85 font-light text-sm"><p>Working around the clock on Omega x Swatch MoonSwatch</p>
+						<span>Tue Mar 29 2022</span>
+						•
+						<span>2 min </span>
+						</div>
+
+					
+					
+					
+				</div><div class="post svelte-17gl5z1"><h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl"><a href="/posts/02_feb">Data goals for 2022</a></h2>
+
+					<div class="opacity-85 font-light text-sm"><p>What are my data goals for 2022</p>
+						<span>Tue Feb 01 2022</span>
+						•
+						<span>2 min </span>
+						</div>
+
+					
+					
+					
+				</div></div></div></div>
+
+<hr></main>
+
+	<footer class="mx-auto p-4 flex w-full max-w-2xl flex-col items-start justify-center">
+	<div class="grid w-full max-w-2xl gap-4 p-4 sm:text-sm sm:px-2"><ul class="footer__links svelte-oetdni"><li class="footer__links_item svelte-oetdni"><a href="/" class="text-sm">Home</a></li>
+			<li class="footer__links_item svelte-oetdni"><a href="/about" class="text-sm">About</a></li>
+			<li class="footer__links_item svelte-oetdni"><a href="https://www.linkedin.com/in/andreian02/" target="_blank" class="text-sm">LinkedIn</a></li>
+			<li class="footer__links_item svelte-oetdni"><span class="text-sm">© 2022 Andrew Lim</span></li></ul></div>
+</footer></div>
+
+
+		<script type="module" data-hydrate="1d6az3r">
+		import { start } from "/_app/start-02019bee.js";
+		start({
+			target: document.querySelector('[data-hydrate="1d6az3r"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-97eefa08.js"),
+						import("/_app/pages/posts/index.svelte-965801fb.js")
+				],
+				params: {},
+				routeId: "posts"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/posts.json?limit=0">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"[{\"layout\":\"mds\",\"title\":\"What I learnt while preparing for data interviews\",\"date\":\"2022-05-08\",\"description\":\"While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.\",\"isCompleted\":true,\"slug\":\"05_may\",\"tags\":[\"svelte • sveltekit • vercel • vite\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp>I work as a frontend-engineer and mostly use \u003Ca href=\\\"https://reactjs.org/\\\" rel=\\\"nofollow\\\">React\u003C/a> at work. I was looking for a different frontend framework that \u003Cstrong>dose not\u003C/strong> use Virtual DOM to have more diverse skills under my belt.\u003C/p>\",\"text\":\"I work as a frontend-engineer and mostly use React at work. I was looking for a different frontend framework that dose not use Virtual DOM to have more diverse skills under my belt.\"},\"readingTime\":\"1 min read\",\"previous\":{\"layout\":\"mds\",\"title\":\"Building this Sveltekit Blog App\",\"date\":\"2022-05-08\",\"description\":\"This is a entry where I try to document down how I managed to put this Sveltekit Blog App together.\",\"isCompleted\":true,\"slug\":\"building-cloudwhite\",\"tags\":[\"svelte • sveltekit • vercel • tailwind\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp>\u003Cimg src=\\\"/assets/images/sveltekit.jpg\\\" alt=\\\"image\\\" title=\\\"sveltekit\\\">\u003C/p>\",\"text\":\"\"},\"readingTime\":\"1 min read\"}},{\"layout\":\"mds\",\"title\":\"Building this Sveltekit Blog App\",\"date\":\"2022-05-08\",\"description\":\"This is a entry where I try to document down how I managed to put this Sveltekit Blog App together.\",\"isCompleted\":true,\"slug\":\"building-cloudwhite\",\"tags\":[\"svelte • sveltekit • vercel • tailwind\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp>\u003Cimg src=\\\"/assets/images/sveltekit.jpg\\\" alt=\\\"image\\\" title=\\\"sveltekit\\\">\u003C/p>\",\"text\":\"\"},\"readingTime\":\"1 min read\",\"next\":{\"layout\":\"mds\",\"title\":\"What I learnt while preparing for data interviews\",\"date\":\"2022-05-08\",\"description\":\"While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.\",\"isCompleted\":true,\"slug\":\"05_may\",\"tags\":[\"svelte • sveltekit • vercel • vite\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp>I work as a frontend-engineer and mostly use \u003Ca href=\\\"https://reactjs.org/\\\" rel=\\\"nofollow\\\">React\u003C/a> at work. I was looking for a different frontend framework that \u003Cstrong>dose not\u003C/strong> use Virtual DOM to have more diverse skills under my belt.\u003C/p>\",\"text\":\"I work as a frontend-engineer and mostly use React at work. I was looking for a different frontend framework that dose not use Virtual DOM to have more diverse skills under my belt.\"},\"readingTime\":\"1 min read\"},\"previous\":{\"layout\":\"mds\",\"title\":\"My First Attempt into Web Development\",\"date\":\"2022-04-01\",\"description\":\"A brief summary of my first foray into web development.\",\"isCompleted\":true,\"slug\":\"04_apr\",\"tags\":[\"web development • html • css • js\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-1ugu2a4\\\">One of my goals in 2022 was to learn more about web development.\u003Cbr>\u003C/p>\",\"text\":\"One of my goals in 2022 was to learn more about web development.\"},\"readingTime\":\"2 min read\"}},{\"layout\":\"mds\",\"title\":\"My First Attempt into Web Development\",\"date\":\"2022-04-01\",\"description\":\"A brief summary of my first foray into web development.\",\"isCompleted\":true,\"slug\":\"04_apr\",\"tags\":[\"web development • html • css • js\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-1ugu2a4\\\">One of my goals in 2022 was to learn more about web development.\u003Cbr>\u003C/p>\",\"text\":\"One of my goals in 2022 was to learn more about web development.\"},\"readingTime\":\"2 min read\",\"next\":{\"layout\":\"mds\",\"title\":\"Building this Sveltekit Blog App\",\"date\":\"2022-05-08\",\"description\":\"This is a entry where I try to document down how I managed to put this Sveltekit Blog App together.\",\"isCompleted\":true,\"slug\":\"building-cloudwhite\",\"tags\":[\"svelte • sveltekit • vercel • tailwind\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp>\u003Cimg src=\\\"/assets/images/sveltekit.jpg\\\" alt=\\\"image\\\" title=\\\"sveltekit\\\">\u003C/p>\",\"text\":\"\"},\"readingTime\":\"1 min read\"},\"previous\":{\"layout\":\"mds\",\"title\":\"The Omega x Swatch Project Sprint\",\"date\":\"2022-03-29\",\"description\":\"Working around the clock on Omega x Swatch MoonSwatch\",\"isCompleted\":true,\"slug\":\"03_mar\",\"tags\":[\"tableau • data visualisation • data jouralism\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-2ptk4z\\\">It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.\u003C/p>\",\"text\":\"It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.\"},\"readingTime\":\"2 min read\"}},{\"layout\":\"mds\",\"title\":\"The Omega x Swatch Project Sprint\",\"date\":\"2022-03-29\",\"description\":\"Working around the clock on Omega x Swatch MoonSwatch\",\"isCompleted\":true,\"slug\":\"03_mar\",\"tags\":[\"tableau • data visualisation • data jouralism\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-2ptk4z\\\">It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.\u003C/p>\",\"text\":\"It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.\"},\"readingTime\":\"2 min read\",\"next\":{\"layout\":\"mds\",\"title\":\"My First Attempt into Web Development\",\"date\":\"2022-04-01\",\"description\":\"A brief summary of my first foray into web development.\",\"isCompleted\":true,\"slug\":\"04_apr\",\"tags\":[\"web development • html • css • js\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-1ugu2a4\\\">One of my goals in 2022 was to learn more about web development.\u003Cbr>\u003C/p>\",\"text\":\"One of my goals in 2022 was to learn more about web development.\"},\"readingTime\":\"2 min read\"},\"previous\":{\"layout\":\"mds\",\"title\":\"Data goals for 2022\",\"date\":\"2022-02-01\",\"description\":\"What are my data goals for 2022\",\"isCompleted\":true,\"slug\":\"02_feb\",\"tags\":[\"goals • 2022\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-12k5zls\\\">I was reading Jordan Peterson&#39;s 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.\u003C/p>\",\"text\":\"I was reading Jordan Peterson's 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.\"},\"readingTime\":\"2 min read\"}},{\"layout\":\"mds\",\"title\":\"Data goals for 2022\",\"date\":\"2022-02-01\",\"description\":\"What are my data goals for 2022\",\"isCompleted\":true,\"slug\":\"02_feb\",\"tags\":[\"goals • 2022\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-12k5zls\\\">I was reading Jordan Peterson&#39;s 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.\u003C/p>\",\"text\":\"I was reading Jordan Peterson's 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.\"},\"readingTime\":\"2 min read\",\"next\":{\"layout\":\"mds\",\"title\":\"The Omega x Swatch Project Sprint\",\"date\":\"2022-03-29\",\"description\":\"Working around the clock on Omega x Swatch MoonSwatch\",\"isCompleted\":true,\"slug\":\"03_mar\",\"tags\":[\"tableau • data visualisation • data jouralism\"],\"isIndexFile\":false,\"component\":{},\"preview\":{\"html\":\"\u003Cp class=\\\"svelte-2ptk4z\\\">It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.\u003C/p>\",\"text\":\"It was a Monday after lunch where it dawn on me that there could be some data surrounding the Omega x Swatch collab Speedmaster Moonwatch to be explored.\"},\"readingTime\":\"2 min read\"}}]"}</script></div>
+</body>
+
+</html>

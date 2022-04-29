@@ -17,7 +17,7 @@ I chanced upon **[Sixing Huang](https://www.linkedin.com/in/sixing-huang-3a824a6
 
 He did a course on **[Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp/)** from udemy and I took that recommendation and went with it.<br>
 
-![image](/assets/images/web_dev.jpg 'web dev')
+![web-dev](/assets/images/web_dev.jpg 'web dev')
 
 ## HTML, CSS, JS
 
@@ -47,9 +47,8 @@ It is like an invisible pair of hands where it helps fetches the data from "behi
 <p>I guess better late than never now.  ¯\_(ツ)_/¯
 </p>
 
-<p>Aside from getting a bird's eye view of web development, sometimes referring to other's past learning experiences on LinkedIn could be quite useful.
-Leaning on others for their experince could help provide some form of inspiration as well as recommendation on what skillsets to pick up while carving your own career in data. 
-</p>
+Aside from getting a bird's eye view of web development, sometimes referring to other's past learning experiences on LinkedIn could be quite useful.
+Leaning on others for their experince could help provide some form of inspiration as well as recommendation on what skillsets to pick up while carving your own career in data.
 
 <style>
 	h2 {

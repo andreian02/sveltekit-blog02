@@ -1,8 +1,8 @@
 ---
 layout: mds
 title: My First Attempt into Web Development
-date: 2022-04-08
-description: I created this blog with sveltekit. And the development experience was a rollercoaster ride.
+date: 2022-04-01
+description: A brief summary of my first foray into web development.
 isCompleted: true
 slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
@@ -10,41 +10,46 @@ tags: [svelte, sveltekit, vercel, vite]
 
 ## Introduction
 
-I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
+<p> 
+One of my goals in 2022 was to learn more about web development.<br></p>
 
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me.
+I chanced upon **[Sixing Huang](https://www.linkedin.com/in/sixing-huang-3a824a66/)**, who is a Triple Neo4j-Certified Bioinformatic Data Scientist and Tech Writer on LinkedIn.
 
-So I tried it out.
+He did a course on **[Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp/)** from udemy and I took that recommendation and went with it.<br>
 
-## Svelte
+## HTML, CSS, JS
 
-There are already many posts about [Svelte](https://svelte.dev/) by other people and reading the official document should be enough to start making stuff with it.
+Through the online course, I finally got a overall understanding of the basics of HTML, CSS, Javascript. If I were to describle these basic 3 building blocks of a website;
 
-The syntax was very straightforward and I liked it a lot.
+&nbsp;&nbsp;&nbsp; • HTML : Serves its purpose similar to the likes of a skeleton structure
 
-## Sveltekit
+&nbsp;&nbsp;&nbsp; • CSS : The different styles, color, visual properties and attributes
 
-According to the [official document](https://kit.svelte.dev/),
+&nbsp;&nbsp;&nbsp; • Javascript : It supports the actions, behaviour and functionality
 
-> SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.
+## Frontend, Backend, APIs
 
-## Vite
+<p> I then got introduced to the concept of Frontend & Backend Frameworks and how it works along with APIs.</p>
 
-Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
+<p>Using YouTube as an example, what we see on the website visually are representations of what the Frontend's role of a web application. <br>
+For instance the YouTube search bar, the login feature, the side bar menu, the homepage gallery thumbnails listing the various videos that you might want to check out are various components of what the Frontend is supporting.</p>
 
-This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
+The role of the Backend Framework paired together with APIs helps retrieve information for the user.
+It is like an invisible pair of hands where it helps fetches the data from "behind the scene" and sends it back for a user to consume that requested information.
 
-## Hosting
+## What I learnt
 
-I also tried [vercel](https://vercel.com/) to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.
-
-## Other stuff
-
-I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
+<p>Aside from getting a bird's eye view of web development, sometimes referring to one's past learning experiences on LinkedIn could be quite useful.
+Leaning on other's experince could help provide some form of inspiration as well as recommendation on what courses could be picked up to aquire new skills. 
+</p>
 
 <style>
 	h2 {
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
+	}
+
+	p{
+		padding: 5px;
 	}
 </style>

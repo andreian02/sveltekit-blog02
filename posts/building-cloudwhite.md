@@ -8,13 +8,14 @@ slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
 ---
 
-<!-- ![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png) --> image file...
+<!-- ![image](https://github.com/sveltejs/kit/blob/master/sites/kit.svelte.dev/src/images/svelte-kit-machine.webp?raw=true) -->
+
+![image][sveltekit](/assets/images/svelte-kit-machine.png "sveltekit")
 
 ## Introduction
 
-I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
-
-I was always curious about [Svelte](https://svelte.dev/) and heard actually a lot of good things about it from people around me. So I tried it out.
+Part of my goals for 2022 was to learn and grow within the space of web development.
+Although I generally work as a data analyst in advertising, running code snippets, fetching data from APIs, connecting to databases etc, I thought it would be cool to be able to build web application to interface with the data collected.
 
 ## Svelte
 
@@ -47,8 +48,8 @@ I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that conv
 		font-weight: bold;
         margin: 10px 5px 10px 0px;
 	}
-    /* image{
-        height:100%;
-        width:10%;
-    } */
+    image{
+        height:5%;
+        width:1%;
+    }
 </style>

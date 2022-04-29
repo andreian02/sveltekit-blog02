@@ -1,7 +1,7 @@
 ---
 layout: mds
 title: The Omega Swatch Project Sprint
-date: 2022-03-08
+date: 2022-03-29
 description: Working around the clock on omega swatch
 isCompleted: true
 slug: lets-start-building

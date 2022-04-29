@@ -9,10 +9,7 @@ import mdsvexConfig from './mdsvex.config.js';
 const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	kit: {
-		adapter: vercel({
-			pages: 'public',
-			assets: 'public'
-		}),
+		adapter: vercel(),
 
 		vite: {
 			// allows vite access to ./posts

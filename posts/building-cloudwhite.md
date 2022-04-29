@@ -8,7 +8,7 @@ slug: lets-start-building
 tags: [svelte • sveltekit • vercel • tailwind]
 ---
 
-![image](/assets/images/sveltekit.jpg 'sveltekit')
+![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
 
 ## Introduction
 
@@ -38,5 +38,3 @@ I also tried [vercel](https://vercel.com/) to host this blog. Hosting was extrem
 ## Other stuff
 
 I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
-
-

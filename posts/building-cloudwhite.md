@@ -8,7 +8,7 @@ slug: lets-start-building
 tags: [svelte, sveltekit, vercel, vite]
 ---
 
-![image][sveltekit](/assets/images/svelte-kit-machine.png "sveltekit")
+![image](/assets/images/sveltekit.jpg 'sveltekit')
 
 ## Introduction
 

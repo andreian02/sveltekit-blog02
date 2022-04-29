@@ -17,6 +17,8 @@ I chanced upon **[Sixing Huang](https://www.linkedin.com/in/sixing-huang-3a824a6
 
 He did a course on **[Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp/)** from udemy and I took that recommendation and went with it.<br>
 
+![image](/assets/images/web_dev.jpg 'web dev')
+
 ## HTML, CSS, JS
 
 Through the online course, I finally got a overall understanding of the basics of HTML, CSS, Javascript. If I were to describle these basic 3 building blocks of a website;
@@ -39,8 +41,14 @@ It is like an invisible pair of hands where it helps fetches the data from "behi
 
 ## What I learnt
 
-<p>Aside from getting a bird's eye view of web development, sometimes referring to one's past learning experiences on LinkedIn could be quite useful.
-Leaning on other's experince could help provide some form of inspiration as well as recommendation on what courses could be picked up to aquire new skills. 
+<p> Through this experience, I also got to learn about how useful Javascript is as a programming language. My first coding language I learnt on the job was python. Have I know that Javascript has so much utility and potential to offer, perhaps I would have chosen this over python to start learning first.
+</p>
+
+<p>I guess better late than never now.  ¯\_(ツ)_/¯
+</p>
+
+<p>Aside from getting a bird's eye view of web development, sometimes referring to other's past learning experiences on LinkedIn could be quite useful.
+Leaning on others for their experince could help provide some form of inspiration as well as recommendation on what skillsets to pick up while carving your own career in data. 
 </p>
 
 <style>

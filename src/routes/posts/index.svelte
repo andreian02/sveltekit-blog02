@@ -12,6 +12,7 @@
 
 <script>
 	export let allPosts;
+	console.log(allPosts);
 </script>
 
 <svelte:head>

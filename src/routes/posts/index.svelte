@@ -1,6 +1,5 @@
 <!--This is the Blog/Posts Index Page!-->
 <script context="module">
-	// import ButtonLinkForward from "../../components/ButtonLinkForward.svelte";
 	export const prerender = true;
 	export const load = async ({ fetch }) => {
 		return {
@@ -13,7 +12,6 @@
 
 <script>
 	export let allPosts;
-	// console.log(recentPosts)
 </script>
 
 <svelte:head>

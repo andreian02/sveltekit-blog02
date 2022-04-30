@@ -1,10 +1,15 @@
 <!--This is the Blog/Posts Index Page!-->
 <script context="module">
+	/**
+	 * @type {import('@sveltejs/kit').Load}
+	 */
 	export const prerender = true;
 	export async function load({ fetch }) {
+		const allPosts = await fetch('/posts.json').then((res) => res.json());
+
 		return {
 			props: {
-				allPosts: await fetch('/posts.json').then((res) => res.json())
+				allPosts
 			}
 		};
 	}

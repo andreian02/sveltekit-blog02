@@ -1,13 +1,13 @@
 <!--This is the Blog/Posts Index Page!-->
 <script context="module">
 	export const prerender = true;
-	export const load = async ({ fetch }) => {
+	export async function load({ fetch }) {
 		return {
 			props: {
 				allPosts: await fetch('/posts.json').then((res) => res.json())
 			}
 		};
-	};
+	}
 </script>
 
 <script>

@@ -3,7 +3,7 @@
 	export const load = async ({ fetch }) => {
 		return {
 			props: {
-				recentPosts: await fetch('/posts.json').then((res) => res.json())
+				recentPosts: await fetch('/posts.json?limit=3').then((res) => res.json())
 			}
 		};
 	};
@@ -11,7 +11,6 @@
 
 <script>
 	import FeatureCard from '../components/FeaturedCard.svelte';
-	import ButtonLink from '../components/ButtonLink.svelte';
 	import ButtonLinkForward from '../components/ButtonLinkForward.svelte';
 	export let recentPosts;
 	// console.log(recentPosts)

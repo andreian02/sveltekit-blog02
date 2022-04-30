@@ -1,19 +1,21 @@
 <script context="module">
 	export const prerender = true;
-	export const load = async ({ fetch }) => {
+	export async function load({ fetch }) {
+		const recentPosts = await fetch('/posts.json?limit=3').then((res) => res.json());
+
 		return {
 			props: {
-				recentPosts: await fetch('/posts.json?limit=3').then((res) => res.json())
+				recentPosts
 			}
 		};
-	};
+	}
 </script>
 
 <script>
 	import FeatureCard from '../components/FeaturedCard.svelte';
 	import ButtonLinkForward from '../components/ButtonLinkForward.svelte';
 	export let recentPosts;
-	// console.log(recentPosts)
+	// console.log(recentPosts);
 </script>
 
 <svelte:head>

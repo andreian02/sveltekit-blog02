@@ -1,8 +1,5 @@
 <!--This is the Blog/Posts Index Page!-->
 <script context="module">
-	/**
-	 * @type {import('@sveltejs/kit').Load}
-	 */
 	export const prerender = true;
 	export async function load({ fetch }) {
 		const allPosts = await fetch('/posts.json?limit=0').then((res) => res.json());
@@ -17,7 +14,7 @@
 
 <script>
 	export let allPosts;
-	console.log(allPosts);
+	// console.log(allPosts);
 </script>
 
 <svelte:head>

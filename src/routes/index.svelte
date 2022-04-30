@@ -3,7 +3,7 @@
 	export const load = async ({ fetch }) => {
 		return {
 			props: {
-				recentPosts: await fetch('/posts.json').then((res) => res.json())
+				recentPosts: await fetch('/posts.json?limit=3').then((res) => res.json())
 			}
 		};
 	};

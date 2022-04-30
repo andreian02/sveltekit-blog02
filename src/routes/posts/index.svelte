@@ -5,7 +5,7 @@
 	 */
 	export const prerender = true;
 	export async function load({ fetch }) {
-		const allPosts = await fetch('/posts.json').then((res) => res.json());
+		const allPosts = await fetch('/posts.json?limit=0').then((res) => res.json());
 
 		return {
 			props: {

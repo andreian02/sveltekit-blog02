@@ -52,12 +52,12 @@ I am keeping my fingers crossed!
 	}
 
 	p {
-		padding:5px
+		padding:5px;
 	}
 
 	span {
 		text-align:center;
 		font-style: italic;
-		padding:5px
+		padding:5px;
 	}
 </style>

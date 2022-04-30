@@ -5,14 +5,14 @@
 	export const load = async ({ fetch }) => {
 		return {
 			props: {
-				recentPosts: await fetch('/posts.json').then((res) => res.json())
+				allPosts: await fetch('/posts.json').then((res) => res.json())
 			}
 		};
 	};
 </script>
 
 <script>
-	export let recentPosts;
+	export let allPosts;
 	// console.log(recentPosts)
 </script>
 
@@ -31,12 +31,12 @@
 				learnings while I journey through the data world.
 			</h2>
 			<h3 class="mb-4">
-				<span class="font-semibold">{recentPosts.length}</span> entries and counting...
+				<span class="font-semibold">{allPosts.length}</span> entries and counting...
 			</h3>
 		</div>
 
 		<div class="blogposts">
-			{#each recentPosts as Post}
+			{#each allPosts as Post}
 				<div class="post">
 					<h2 class="hover:text-current hover:underline my-0.5 font-medium text-2xl">
 						<a href={`/posts/${Post.slug}`}>{Post.title}</a>

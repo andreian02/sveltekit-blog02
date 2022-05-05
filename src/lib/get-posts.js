@@ -16,6 +16,9 @@ if (browser) {
  *
  * For getting posts from the client, fetch from the /posts.json endpoint instead
  */
+
+
+
 export function getPosts({ page = 1, limit } = {}) {
   if (limit) {
     return posts.slice((page - 1) * limit, page * limit)

@@ -1,7 +1,7 @@
 <script context="module">
 	export const prerender = true;
 	export async function load({ fetch }) {
-		const recentPosts = await fetch('/posts.json?limit=3').then((res) => res.json());
+		const recentPosts = await fetch('/posts.json?limit=0').then((res) => res.json());
 
 		return {
 			props: {
@@ -15,7 +15,13 @@
 	import FeatureCard from '../components/FeaturedCard.svelte';
 	import ButtonLinkForward from '../components/ButtonLinkForward.svelte';
 	export let recentPosts;
+
 	// console.log(recentPosts);
+
+	export let IBlog = [];
+
+	const mostRecentBlogs = (IBlog = recentPosts.slice(0, 3));
+	// console.log(mostRecentBlogs);
 </script>
 
 <svelte:head>
@@ -45,7 +51,7 @@
 		<h3 class="mb-6 text-2xl font-bold tracking-tight md:text-4xl">Recent Posts</h3>
 
 		<div class="flex flex-col gap-6 md:flex-row">
-			{#each recentPosts as Post}
+			{#each mostRecentBlogs as Post}
 				<!-- <FeatureCard title={Post.title} 
 				href={`/blog/${Post.slug}`} stringData={Post.date} /> -->
 				<FeatureCard {Post} />

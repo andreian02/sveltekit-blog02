@@ -16,11 +16,10 @@
 	import ButtonLinkForward from '../components/ButtonLinkForward.svelte';
 	export let recentPosts;
 
-	// console.log(recentPosts);
-
 	export let IBlog = [];
-
 	const mostRecentBlogs = (IBlog = recentPosts.slice(0, 3));
+
+	// console.log(recentPosts);
 	// console.log(mostRecentBlogs);
 </script>
 

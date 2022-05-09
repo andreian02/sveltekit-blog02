@@ -10,7 +10,7 @@ tags: [goals • 2022]
 
 ## Introduction
 
-<p>I was reading Jordan Peterson's 12 Rules for Life at the beginning of this, after a couple of chapters, I decided to pen down specific goals for this year.</p>
+<p>I was reading Jordan Peterson's 12 Rules for Life at the beginning of this year. After a couple of chapters, I decided to pen down specific goals for this year.</p>
 
 <p>I believe it was also a quote similar to this that emphasis the need to try focus and be good at one thing, one key objective. 
 </p>

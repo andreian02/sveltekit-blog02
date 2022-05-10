@@ -1,52 +1,42 @@
 ---
 layout: mds
-title: My First Attempt into Web Development
-date: 2022-04-01
-description: A brief summary of my first foray into web development.
+title: What I learnt while preparing for data interviews
+date: 2022-05-10
+description: While applying for data role, I made a bloody terrible mistake. A total amatuer mistake.
 isCompleted: true
 slug: lets-start-building
-tags: [web development • html • css • js]
+tags: [svelte • sveltekit • vercel • vite]
 ---
 
 ## Introduction
 
-One of my goals in 2022 was to learn more about web development.
-I chanced upon **[Sixing Huang](https://www.linkedin.com/in/sixing-huang-3a824a66/)**, who is a Triple Neo4j-Certified Bioinformatic Data Scientist and Tech Writer on LinkedIn.
+I work as a frontend-engineer and mostly use [React](https://reactjs.org/) at work. I was looking for a different frontend framework that **dose not** use Virtual DOM to have more diverse skills under my belt.
 
-He did a course on **[Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp/)** from udemy and I took that recommendation and went with it.<br>
+## Svelte
 
-![web_dev](https://user-images.githubusercontent.com/36339564/165979380-ccb1db24-1341-4c79-b2d5-6e1ef3916a55.jpg)
+There are already many posts about [Svelte](https://svelte.dev/) by other people and reading the official document should be enough to start making stuff with it.
 
-## HTML, CSS, JS
+The syntax was very straightforward and I liked it a lot.
 
-Through the online course, I finally got a overall understanding of the basics of HTML, CSS, Javascript. If I were to describle these basic 3 building blocks of a website;
+## Sveltekit
 
-&nbsp;&nbsp;&nbsp; • HTML : Serves its purpose similar to the likes of a skeleton structure
+According to the [official document](https://kit.svelte.dev/),
 
-&nbsp;&nbsp;&nbsp; • CSS : The different styles, color, visual properties and attributes
+> SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.
 
-&nbsp;&nbsp;&nbsp; • Javascript : It supports the actions, behaviour and functionality
+## Vite
 
-## Frontend, Backend, APIs
+Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
 
-<p> I then got introduced to the concept of Frontend & Backend Frameworks and how it works along with APIs.</p>
+This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
 
-<p>Using YouTube as an example, what we see on the website visually are representations of what the Frontend's role of a web application. <br>
-For instance the YouTube search bar, the login feature, the side bar menu, the homepage gallery thumbnails listing the various videos that you might want to check out are various components of what the Frontend is supporting.</p>
+## Hosting
 
-The role of the Backend Framework paired together with APIs helps retrieve information for the user.
-It is like an invisible pair of hands where it helps fetches the data from "behind the scene" and sends it back for a user to consume that requested information.
+I also tried [vercel](https://vercel.com/) to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.
 
-## What I learnt
+## Other stuff
 
-<p> Through this experience, I also got to learn about how useful Javascript is as a programming language. My first coding language I learnt on the job was python. Have I know that Javascript has so much utility and potential to offer, perhaps I would have chosen this over python to start learning first.
-</p>
-
-<p>I guess better late than never now.  ¯\_(ツ)_/¯
-</p>
-
-Aside from getting a bird's eye view of web development, sometimes referring to other's past learning experiences on LinkedIn could be quite useful.
-Leaning on others for their experince could help provide some form of inspiration as well as recommendation on what skillsets to pick up while carving your own career in data.
+I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
 
 <style>
 	h2 {

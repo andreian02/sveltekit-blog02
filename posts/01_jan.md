@@ -1,7 +1,7 @@
 ---
 layout: mds
 title: Data goals for 2022
-date: 2022-02-01
+date: 2022-01-11
 description: What are my data goals for 2022
 isCompleted: true
 slug: lets-start-building

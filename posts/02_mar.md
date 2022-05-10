@@ -47,6 +47,8 @@ For instance the YouTube search bar, the login feature, the side bar menu, the h
 The role of the Backend Framework, together with APIs helps retrieve information for the user.
 It is like an invisible pair of hands where it helps fetches the data from "behind the scene" (call database/servers) and sends it back for a user to consume via the Frontend component.
 
+The full suite of frameworks introduced in the course were MongoDB, Express.js, React, Node.js, which in short called the MERN Stack.
+
 ## What I learnt
 
 <p> Through this, I also got to learn about how useful Javascript is as a programming language. My first coding language I learnt on the job was Python. Have I know that Javascript has so much utility and potential to offer, perhaps I would have chosen this over Python to start learning first.
@@ -55,9 +57,9 @@ It is like an invisible pair of hands where it helps fetches the data from "behi
 <p>I guess better late than never now.  ¯\_(ツ)_/¯
 </p>
 
-Besides getting a bird's eye view of web development, referring to other's past learning experiences on LinkedIn could be quite useful.
-Given that there are so much content out there, leaning on others for their previous experince also help provide some form of filtering process.<br>
-It could so serve as inspiration on what skillset could be picked up while carving your own career in data.
+Besides getting some hands on in web development, referring to other's past learning experiences on LinkedIn could be quite useful.
+Given that there are so much content out there, leaning on others for their previous experince also help provide some form of filtering process to choose where/whom to learn from.<br>
+It could also serve as inspiration on what skillset one could be pick up while carving your own career in data.
 
 <style>
 	h2 {

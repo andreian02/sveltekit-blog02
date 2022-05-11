@@ -16,7 +16,7 @@ tags: [goals • 2022]
 
 <p>This was the quote that got me.</p>
 
-<span>Orient yourself properly. Then–and only then–concentrate on the day. Set your sights at the Good, the Beautiful, and the True, and then focus pointedly and carefully on the concerns of each moment. Aim continually at Heaven while you work diligently on Earth. Attend fully to the future, in that manner, while attending fully to the present. Then you have the best chance of perfecting both.</span><br>
+<span>"Orient yourself properly. Then–and only then–concentrate on the day. Set your sights at the Good, the Beautiful, and the True, and then focus pointedly and carefully on the concerns of each moment. Aim continually at Heaven while you work diligently on Earth. Attend fully to the future, in that manner, while attending fully to the present. Then you have the best chance of perfecting both."</span><br>
 <span>-Jordan Peterson</span>
 
 <p></p>

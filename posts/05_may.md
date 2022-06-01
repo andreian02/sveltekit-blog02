@@ -32,7 +32,7 @@ This surely provided the `faster and leaner` experince they promised. The `HMR` 
 
 ## Closing
 
-I made a [package](https://github.com/K-Sato1995/md-to-json-converter) that converts markdown files into JSON for this.
+I 
 
 <style>
 	h2 {

@@ -29,13 +29,12 @@ Ever since I chanced upon **[the pudding](https://pudding.cool/)**, I have alway
 
 Working in [TBWA](https://www.tbwa.com.sg/), the company prides itself by understanding culture as one of its main key differentiating factor.
 I often thought about my role and what it meant if I were to partake in it to understand culture. What could the potential business opportunities be if we could use data to explain ideas.
-What creative ways data could be used to play within this space.
-Hence the pudding's direction was always where I am inspired and keen grow towards.
+Hence the pudding's direction was always where I am inspired and keen to grow towards.
 
 ## Building Blocks of Data Essays
 
 Looking at the interactiveness of how data is being used to "story tell" across pudding's articles, I knew at some point in time, I have to dip my toes into web development. <br>
-Learning web development was a clear next step to take. Although I have tried working to produce similar data project / story tell articles with Tableau, venturing into web dev and couple that with things like d3.js would be a set of additional skill that I want to aquire.
+Learning web development was a clear next step to take. Although I have tried to produce similar data project / story tell articles with Tableau, venturing into web dev and coupling that with tools like d3.js would be a set of additional skillsets that I wish to aquire.
 
 ## Data Goals for 2022
 

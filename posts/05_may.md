@@ -26,7 +26,7 @@ According to the [official document](https://kit.svelte.dev/),
 
 ## How does Order and Chaos affects Motivation
 
-Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
+Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool. XXXXX
 
 This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
 

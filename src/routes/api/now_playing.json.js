@@ -1,7 +1,7 @@
 const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`;
 
 export async function get() {
-    const { token } = await fetch('http://localhost:3000/api/access_token.json').then(res => res.json())
+    const { token } = await fetch('https://sveltekit-cloudwhite.vercel.app/api/access_token.json').then(res => res.json())
 
     const res = await fetch(NOW_PLAYING_ENDPOINT, {
         headers: {

@@ -7,6 +7,7 @@
 	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
+	
 
 	import PageTransition from '../components/PageTransition.svelte';
 	export let url;
@@ -28,6 +29,7 @@
 			/>
 		</div>
 		<slot />
+		
 	</main>
 
 	<Footer />

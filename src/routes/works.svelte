@@ -15,11 +15,10 @@
 					</div>
 
 					<p class="text-base">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
-						Maiores et perferendis eaque, exercitationem praesentium nihil.
+						{img.desc}
 					</p>
 				</div>
-				<div class="px-6 pt-4 pb-2">
+				<!-- <div class="px-6 pt-4 pb-2">
 					<span
 						class="inline-block bg-slate-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-700 mr-2 mb-2"
 						>#photography</span
@@ -32,11 +31,13 @@
 						class="inline-block bg-slate-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-700 mr-2 mb-2"
 						>#winter</span
 					>
-				</div>
+				</div> -->
 			</div>
 		{/each}
 	</div>
 </main>
+
+<hr />
 
 <style>
 	/* Center website */

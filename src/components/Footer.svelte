@@ -1,3 +1,7 @@
+<script>
+	import Nowplaying from '../components/nowplaying.svelte';
+</script>
+
 <footer class="mx-auto p-4 flex w-full max-w-2xl flex-col items-start justify-center">
 	<!-- <hr class="mb-8 w-full" /> -->
 	<div class="grid w-full max-w-2xl gap-4 p-4 sm:text-sm sm:px-2">
@@ -15,6 +19,9 @@
 			</li>
 			<li class="footer__links_item">
 				<span class="text-sm">© 2022 Andrew Lim</span>
+			</li>
+			<li>
+				<Nowplaying/>
 			</li>
 		</ul>
 	</div>

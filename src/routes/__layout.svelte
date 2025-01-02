@@ -24,7 +24,7 @@
 		<div class="flex justify-center pb-4">
 			<img
 				class="rounded-md shadow-md"
-				src="https://andreian02.github.io/images/Clouds.jpg"
+				src="https://i1.sndcdn.com/visuals-000009477978-FKt1Jy-t1240x260.jpg"
 				alt="hero-img"
 			/>
 		</div>
